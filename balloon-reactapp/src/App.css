@@ -13,6 +13,7 @@
   }
 }
 
+/* footer style */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -28,6 +29,29 @@
   color: #61dafb;
 }
 
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+a.weixin{
+  color:#09B83E;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.instagram {
+  color: black;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -16,13 +16,13 @@ export default class Home extends Component {
       
       <main>
       <Container>
-          {/*logo*/}
+        {/*logo*/}
           <Row className ="justify-content-md-center">
             <Col xs={12} sm={4} md={4}> 
             <Image src = {logo} fluid />
             </Col>
           </Row>
-          {/*Carousel pictures*/}
+        {/*Carousel pictures*/}
           <Carousel>
             <Carousel.Item>
               <Image src = {EncorePink} fluid />
@@ -42,9 +42,9 @@ export default class Home extends Component {
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
-          </Container>
+         
         
-        {/*upper grey bar*/}
+      {/*upper grey bar*/}
         <Row>
           <Card className = "text-center bg-secondary text-white my-5 py4">
             <Card.Body>
@@ -53,7 +53,7 @@ export default class Home extends Component {
           </Card>
         </Row>
 
-        {/*intro text*/}
+      {/*intro text*/}
         <Row className ="justify-content-md-center">
           <Col sm = {5}> 
             <h1>
@@ -78,7 +78,7 @@ export default class Home extends Component {
           </Col>
       </Row>
 
-       {/*lower grey bar*/}
+      {/*lower grey bar*/}
        <Row>
           <Card className = "text-center bg-secondary text-white my-5 py4">
             <Card.Body>
@@ -88,7 +88,7 @@ export default class Home extends Component {
           </Card>
         </Row>
 
-        {/*cards for display*/}
+      {/*cards for display*/}
         <Row className = "cards">
         <Col>
             <Card style={{ width: '18rem' }}>
@@ -137,13 +137,8 @@ export default class Home extends Component {
           </Card>
         </Col>
         </Row>
-
-
-
-
-     
+        </Container>
      </main>
-   
     )
   }
 }

@@ -1,3 +1,17 @@
+
+Dependencies need to instal: 
+1. react bootstrap
+$ yarn add react-bootstrap bootstrap
+
+2. react router dom
+$ yarn add react-router-dom
+
+2. font awsome 
+$ npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
