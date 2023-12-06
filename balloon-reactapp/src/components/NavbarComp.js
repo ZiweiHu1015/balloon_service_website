@@ -24,7 +24,7 @@ export default class NavbarComp extends Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-                <Nav.Link as = {Link} to = {"/Home"}> home</Nav.Link>
+                <Nav.Link as = {Link} to = {"/Home"}> Home</Nav.Link>
                 <Nav.Link as = {Link} to = {"/Events"}>Events</Nav.Link>
                 <Nav.Link as = {Link} to = {"/Balloon"}>Balloon</Nav.Link>
                 <Nav.Link as = {Link} to = {"/Flower"}>Flower</Nav.Link>
