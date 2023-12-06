@@ -89,9 +89,9 @@ export default class Home extends Component {
         </Row>
 
       {/*cards for display*/}
-        <Row className = "cards">
-        <Col>
-            <Card style={{ width: '18rem' }}>
+        <Row >
+        <Col className="d-flex align-items-stretch">
+            <Card className = "cards" style={{ width: '18rem' }}>
               <Card.Img variant="top" src={EncoreBlack}/>
                 <Card.Body>
                   <Card.Title>Events Decoration</Card.Title>
@@ -104,8 +104,8 @@ export default class Home extends Component {
             </Card>
         </Col>
           
-        <Col>
-          <Card style={{ width: '18rem' }}>
+        <Col className = "d-flex align-items-stretch">
+          <Card className = "cards" style={{ width: '18rem' }}>
             <Card.Img 
                 variant="top" 
                 src={tallCenterPiece}/>
@@ -120,8 +120,8 @@ export default class Home extends Component {
           </Card>
         </Col>
         
-        <Col> 
-          <Card style={{ width: '18rem' }}>
+        <Col className="d-flex align-items-stretch">
+          <Card className = "cards" style={{width: '18rem' }}>
             <Card.Img 
                   variant="top" 
                   src={happyBDay}/>
@@ -136,6 +136,7 @@ export default class Home extends Component {
             </Card.Body>
           </Card>
         </Col>
+        
         </Row>
         </Container>
      </main>

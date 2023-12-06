@@ -35,11 +35,12 @@ export default class Footer extends Component {
             <p>Email: bostonggevents@gmail.com</p>
             <p>Msg: 617-412-7280</p>
         </Col>
+        
     </Row>  
-   
         <p className = "text-center">
             Copyright 2023 Boston_GG_Events
         </p>
+      
     </footer>
     )
   }
