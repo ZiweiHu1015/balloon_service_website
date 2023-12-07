@@ -1,14 +1,17 @@
 
-Dependencies need to instal: 
+Dependencies needed for front-end: 
 1. react bootstrap
 $ yarn add react-bootstrap bootstrap
 
 2. react router dom
 $ yarn add react-router-dom
 
-2. font awsome 
+3. font awsome 
 $ npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
 
+backend: 
+1. Mongo DB
+check if you are using a mac https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
 
 
 
