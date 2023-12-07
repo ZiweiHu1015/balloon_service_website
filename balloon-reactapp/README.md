@@ -13,6 +13,11 @@ backend:
 1. Mongo DB
 check if you are using a mac https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/
 
+2. install express, cors, mongoose, dotenv
+npm install express cors mongoose dotenv
+
+3. install nodemon
+npm install -g nodemon
 
 
 # Getting Started with Create React App
