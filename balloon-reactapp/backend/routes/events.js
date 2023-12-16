@@ -15,7 +15,7 @@ router.route('/add').post((re, res) =>{
     const newEvent = new Event({
         eventname, 
         description,
-        price
+        price,
     });
     
     newEvent.save()//saved to database
