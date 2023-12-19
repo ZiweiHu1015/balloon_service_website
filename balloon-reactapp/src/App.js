@@ -12,7 +12,7 @@ import {
 } from "react-router-dom";
 import Home from './components/Home';
 import Event from './components/Events';
-import Balloon from './components/Balloon';
+import ContactUs from './components/contactUs';
 import Flower from './components/Flower';
 import GrabAndGo from './components/GrabAndGo';
 
@@ -24,9 +24,9 @@ function App() {
         <Routes>
             <Route path = "/" element = {<Home/>} />
             <Route path = "/event" element = {<Event/>} />
-            <Route path = "/balloon" element = {<Balloon/>} />
             <Route path = "/flower" element = {<Flower/>} />
             <Route path = "/grabAndGo" element = {<GrabAndGo/>}/>
+            <Route path = "/contactUs" element = {<ContactUs/>} />
         </Routes>
     </div>
      <Footer/>

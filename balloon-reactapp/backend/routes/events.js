@@ -11,11 +11,14 @@ router.route('/add').post((re, res) =>{
     const eventname = req.body.eventname;
     const description = req.body.description;
     const price = Number(req.body.price);
+    const image = req.body.image;
+
     
     const newEvent = new Event({
         eventname, 
         description,
         price,
+        image
     });
     
     newEvent.save()//saved to database

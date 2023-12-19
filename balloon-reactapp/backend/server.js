@@ -22,11 +22,13 @@ connection.once('open', () => {
 
 
 const eventsRouter = require('./routes/events');
-
+const flowersRouter = require('./routes/flowers');
+const grabAndGoRouter = require('./routes/grabAndGo');
 
 
 app.use("/event", eventsRouter);
-
+app.use("/flower", flowersRouter);
+app.use("/grabAndGo", grabAndGoRouter);
 
 app.get("/", (req, res) => {
     res.send("Main page");

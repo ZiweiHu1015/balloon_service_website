@@ -2,6 +2,9 @@
 .App {
   font-family: 'Merriweather', serif;
 }
+.Events_Font{
+  font-family: 'Merriweather', serif;
+}
 
 .App-logo {
   height: 40vmin;
@@ -52,6 +55,10 @@ a.facebook {
 
 a.instagram {
   color: black;
+}
+
+.cards{
+ margin-bottom: 60px;
 }
 
 
