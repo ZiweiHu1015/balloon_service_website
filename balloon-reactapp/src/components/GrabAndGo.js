@@ -49,15 +49,10 @@ export default class GrabAndGo extends Component {
     return (
     <main>
     <Container>
-
-    
         <h3 className="text-center">Grab And Go</h3>
-          
             <Row>
             {this.grabAndGoList()}
-            </Row>
-     
-       
+            </Row> 
     </Container>
     </main>
       

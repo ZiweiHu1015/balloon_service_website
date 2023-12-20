@@ -7,7 +7,7 @@ router.route('/').get((req,res)=> {
         .catch(err => res.status(400).json('Error: ' + err ));
 });
 
-router.route('/add').post((re, res) =>{
+router.route('/add').post((req, res) =>{
     const grabandgoname = req.body.grabandgoname;
     const description = req.body.description;
     const price = Number(req.body.price);

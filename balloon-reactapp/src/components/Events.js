@@ -41,7 +41,8 @@ export default class Event extends Component {
         console.log("this is an error");
       })
     }
-    eventList() {
+  
+  eventList() {
     return this.state.events.map(currentevent => {//for each loop
       return <Eventcard event={currentevent}  key={currentevent._id}/>;
     })
