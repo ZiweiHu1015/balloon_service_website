@@ -19,7 +19,7 @@ export default class NavbarComp extends Component {
                 <Nav.Link as = {Link} to = {"/event"}>Event</Nav.Link>
                 <Nav.Link as = {Link} to = {"/flower"}>Flower</Nav.Link>
                 <Nav.Link as = {Link} to = {"/grabAndGo"}>Grab and Go</Nav.Link>
-                <Nav.Link as = {Link} to = {"/contactUs"}>ContactUs</Nav.Link>
+                <Nav.Link as = {Link} to = {"/contactUs"}>Contact Us</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>
