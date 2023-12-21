@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
-import  { Row, Col, Image, Container,input, Card, Button} from "react-bootstrap";
+import "../App.css"
+import  {  Container, Button} from "react-bootstrap";
 import axios from 'axios';
-import DatePicker from 'react-datepicker/dist/react-datepicker';
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 export default class ContactUs extends Component {
+  
   constructor(props) {
     super(props);
 
@@ -17,6 +20,7 @@ export default class ContactUs extends Component {
     this.onChangeEventLocation = this.onChangeEventLocation.bind(this);
     this.onChangeLocationType = this.onChangeLocationType.bind(this);
     this.onChangeBudget = this.onChangeBudget.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
 
 
     this.state = {
@@ -28,7 +32,7 @@ export default class ContactUs extends Component {
       endTime:'',
       eventLocation:'',
       locationType:'',
-      budget:0
+      budget:0,
     }
   }
 
@@ -37,7 +41,7 @@ export default class ContactUs extends Component {
       .then(response => {
         if (response.data.length > 0) {
           console.log(response)
-          this.setState({ contacts:response.data })
+          this.setState({ contact:response.data })
         }
       })
       .catch((error) => {
@@ -63,9 +67,10 @@ export default class ContactUs extends Component {
       })
     }
 
-    onChangeEventDate(e){
+    onChangeEventDate(date){
+      console.log(date)
       this.setState({
-        eventDate: e.target.value
+        eventDate: date
       })
     }
     onChangeStartTime(e){
@@ -96,6 +101,7 @@ export default class ContactUs extends Component {
 
     onSubmit(e) {
       e.preventDefault();
+      console.log('Form submitted');
   
       const contact = {
         fullname: this.state.fullname,
@@ -112,9 +118,12 @@ export default class ContactUs extends Component {
       console.log(contact);
   
       axios.post('http://localhost:5000/contactus/', contact)
-        .then(res => console.log(res.data));
+        .then(res => console.log(res.data))
+        .catch(error =>{
+          console.error("Error in submitting form", error.response ? error.response.data : error.message);
+        });
   
-      window.location = '/';
+     // window.location = '/';
     }
 
 
@@ -128,81 +137,56 @@ export default class ContactUs extends Component {
         <h3 className="text-center">Contact Us</h3>
       
         <form onSubmit = {this.onSubmit}>
-          <Row>
-            <Col>
-            <div className="form-group">
+            
+          <div className="form-group">
               <label>Name</label>
               <input type="name" 
+                     required
                      className="form-control" 
                      id="username"  
                      value = {this.state.fullname}
                      onChange = {this.onChangeFullname}
                      />
-            </div>
-            </Col>
-
-            <Col>
-            <div className="form-group">
+          </div>
+          
+          <div className="form-group">
               <label >Email</label>
               <input type="email" 
                      className="form-control" 
                      id="useremail" 
                      value = {this.state.email}
                      onChange={this.onChangeEmail}/>
-            </div>
-            </Col>
-          </Row>
-
-          <Row>
-            <Col>
-            <div className="form-group">
+          </div>
+         
+          <div className="form-group">
               <label>Phone</label>
-              <input type="text" 
+              <input type="Tel" 
                      className="form-control" 
                      id="userPhone" 
                      value = {this.state.phone}
-                     onChange={this.phone} />
-             
-            </div>
-            </Col>
-          </Row>
-
-          <div className="form-group">
-              <label>Event Type</label>
-              <input type="text" 
-                     className="form-control" 
-                     id="eventType" 
-                     placeholder= "Describe what type of event is it."
-                     value = {this.state.locationType}
-                     onChange={this.locationType}  />
+                     onChange={this.onChangePhone} 
+                     />
           </div>
-
-          <Row>
-            <Col>
-            <div className="form-group">
-              <label >Event Date</label>
-              <input type="Date" 
-                     className="form-control" 
-                     id="eventDate" 
-                     value = {this.state.eventDate}
-                     onChange={this.eventDate}/>
-            
-            </div>
-            </Col>
-          </Row>
-          
-          <Row>
-          <Col>
+             
+          <div className="form-group">
+              <label >Event Date:  </label>
+              <span> </span>
+              <DatePicker 
+                selected = {this.state.eventDate}
+                onChange = {this.onChangeEventDate}
+                className = "form-control"
+                dateFormat="MMMM d, yyyy"
+                />
+          </div>
+   
           <div className="form-group">
               <label>Event Start Time</label>
               <input type="Time" 
                      className="form-control" 
                      id="starttime"
                      value = {this.state.startTime}
-                     onChange={this.startTime} />
-          </div>
-          </Col>
-          </Row>
+                     onChange={this.onChangeStartTime} />
+          </div>   
 
           <div className="form-group">
               <label >Event End Time</label>
@@ -210,7 +194,7 @@ export default class ContactUs extends Component {
                      className="form-control" 
                      id="eventEndTime"
                      value = {this.state.endTime}
-                     onChange={this.endTime} />
+                     onChange={this.onChangeEndTime} />
            
           </div>
 
@@ -220,7 +204,7 @@ export default class ContactUs extends Component {
                      className="form-control" 
                      id="eventLocation"
                      value = {this.state.eventLocation}
-                     onChange={this.eventLocation}  />
+                     onChange={this.onChangeEventLocation}  />
           </div>
 
           <div className="form-group">
@@ -229,21 +213,18 @@ export default class ContactUs extends Component {
                      className="form-control" 
                      id="locationType"
                      value = {this.state.locationType}
-                     onChange={this.locationType} />
+                     onChange={this.onChangeLocationType} />
           </div>
-          <br></br>
 
-          <div className="form-group form-check">
-              <label>Your Budget</label>
+          <div className="form-group">
+              <label>Your Budget in US dollar</label>
               <input type="number" 
                      className="form-control"
                      id="budgetType" 
                      value = {this.state.budget}
-                     onChange={this.budget}/>
-            
-              
+                     onChange={this.onChangeBudget}/>   
           </div>
-          <br></br>
+         
 
           <button type="submit" className="btn btn-primary">Submit</button>
 

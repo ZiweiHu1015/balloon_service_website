@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import  { Row, Col, Image, Container, Card, Button} from "react-bootstrap";
 import logo from './images/logo/logo.png';
+import { Link } from 'react-router-dom';
 
 import Carousel from 'react-bootstrap/Carousel';
 import EncorePink from './images/balloons/EncorePinkOne.jpg';
@@ -99,7 +100,7 @@ export default class Home extends Component {
                     Sit back, relax, and enjoy your special occasion 
                     while we expertly handle every aspect of the decoration.
                   </Card.Text>
-                  <Button variant="primary">Learn More</Button>
+                  <Link to= "/event" className="btn btn-primary">Learn More</Link>
               </Card.Body>
             </Card>
         </Col>
@@ -115,7 +116,7 @@ export default class Home extends Component {
                   Discover the charm of our floral services, 
                   offering both exquisite real and artificial flower arrangements. 
                 </Card.Text>
-                <Button variant="primary">Learn More</Button>
+                <Link to= "/flower" className="btn btn-primary">Learn More</Link>
             </Card.Body>
           </Card>
         </Col>
@@ -131,8 +132,7 @@ export default class Home extends Component {
                 Quick, grab-and-go balloon service - perfect for last-minute 
                 celebrations. Add instant joy and color to your event.
                 </Card.Text>
-                <Button 
-                  variant="primary">Learn More</Button>
+                <Link to= "/grabAndGo" className="btn btn-primary">Learn More</Link>
             </Card.Body>
           </Card>
         </Col>

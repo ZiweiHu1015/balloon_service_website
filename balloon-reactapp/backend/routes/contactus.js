@@ -7,11 +7,11 @@ router.route('/').get((req,res)=> {
         .catch(err => res.status(400).json('Error: ' + err ));
 });
 
-router.route('/add').post((req, res) =>{
+router.route('/').post((req, res) => {
     const fullname = req.body.fullname;
     const email = req.body.email;
     const phone = Number(req.body.phone);
-    const eventDate = Number(req.body.eventDate);
+    const eventDate = Date.parse(req.body.eventDate);
     const startTime = req.body.startTime;
     const endTime = req.body.endTime;
     const eventLocation = req.body.eventLocation;

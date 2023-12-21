@@ -19,6 +19,10 @@ npm install express cors mongoose dotenv
 3. install nodemon
 npm install -g nodemon
 
+4. install datepicker
+
+ npm install --save react-datepicker --legacy-peer-deps
+
 
 # Getting Started with Create React App
 
