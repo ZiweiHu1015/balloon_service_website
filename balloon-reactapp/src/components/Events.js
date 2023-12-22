@@ -16,7 +16,8 @@ const Eventcard = props => (//event card component
           <Card.Text>
           {props.event.description}
           </Card.Text>
-          <Link to= "/products" className="btn btn-primary">Learn More</Link>
+          <Link to= {`/products/${props.event._id}`} className="btn btn-primary">Learn More</Link>
+          
       </Card.Body>
     </Card>
   </Col>

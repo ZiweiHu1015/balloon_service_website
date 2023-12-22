@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import  { Row, Col, Image, Container, Card, Button} from "react-bootstrap";
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 const Eventcard = props => (//event card component 
  
   <Col className="d-flex align-items-stretch">
@@ -15,7 +16,7 @@ const Eventcard = props => (//event card component
            <p>{props.flower.description}</p>
             
           </Card.Text>
-          <Button variant="primary">Learn More</Button>
+          <Link to= {`/products/${props.flower._id}`} className="btn btn-primary">Learn More</Link>
       </Card.Body>
     </Card>
   </Col>
