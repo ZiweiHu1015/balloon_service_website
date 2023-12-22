@@ -2,19 +2,19 @@ const router = require('express').Router();
 let Event = require('../models/event.model');
 
 router.route('/').get((req,res)=> {
-    Event.find() //get a list of all events
+    Event.find({category:"event"}) //get a list of all events
         .then(events => res.json(events))
         .catch(err => res.status(400).json('Error: ' + err ));
 });
 
 router.route('/add').post((req, res) =>{
-    const eventname = req.body.eventname;
+    const name = req.body.name;
     const description = req.body.description;
     const price = Number(req.body.price);
     const image = req.body.image;
 
     const newEvent = new Event({
-        eventname, 
+        name, 
         description,
         price,
         image
@@ -22,7 +22,7 @@ router.route('/add').post((req, res) =>{
     newEvent.save()//saved to database
         .then(() => res.json('Event added!'))
         .catch(err => res.status(400).json('Error: ' + err));
-});
+});  
 
 router.route('/:id').get((req, res) => {
     Event.findById(req.params.id)

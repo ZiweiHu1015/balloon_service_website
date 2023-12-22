@@ -8,7 +8,7 @@ const Eventcard = props => (//event card component
     <Card className = "cards" style={{ width: '18rem' }}>
       <Card.Img variant="top" src={props.flower.image}/>
         <Card.Body>
-          <Card.Title>{props.flower.flowername}</Card.Title>
+          <Card.Title>{props.flower.name}</Card.Title>
           <Card.Text>
            
            <p>{props.flower.price+`$`}</p>

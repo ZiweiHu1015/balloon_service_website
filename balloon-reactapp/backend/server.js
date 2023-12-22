@@ -26,7 +26,6 @@ const flowersRouter = require('./routes/flowers');
 const grabAndGoRouter = require('./routes/grabAndGo');
 const contactusRouter = require('./routes/contactus');
 
-
 app.use("/event", eventsRouter);
 app.use("/flower", flowersRouter);
 app.use("/grabAndGo", grabAndGoRouter);

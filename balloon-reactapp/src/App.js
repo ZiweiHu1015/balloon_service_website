@@ -15,6 +15,7 @@ import Event from './components/Events';
 import ContactUs from './components/contactUs';
 import Flower from './components/Flower';
 import GrabAndGo from './components/GrabAndGo';
+import Products from './components/Products'
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
             <Route path = "/flower" element = {<Flower/>} />
             <Route path = "/grabAndGo" element = {<GrabAndGo/>}/>
             <Route path = "/contactUs" element = {<ContactUs/>} />
+            <Route path = "/products" element = {<Products/>} />
+
         </Routes>
     </div>
      <Footer/>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
-import  { Row, Col, Image, Container, Card, Button} from "react-bootstrap";
+import  { Row, Col, Container, Card, Button} from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 const Eventcard = props => (//event card component 
@@ -8,14 +9,14 @@ const Eventcard = props => (//event card component
     <Card className = "cards" style={{ width: '18rem' }}>
       <Card.Img variant="top" src={props.event.image}/>
         <Card.Body>
-          <Card.Title>{props.event.eventname}</Card.Title>
+          <Card.Title>{props.event.name}</Card.Title>
           <Card.Text>
           {props.event.price+`$`}
           </Card.Text>
           <Card.Text>
           {props.event.description}
           </Card.Text>
-          <Button variant="primary">Learn More</Button>
+          <Link to= "/products" className="btn btn-primary">Learn More</Link>
       </Card.Body>
     </Card>
   </Col>
