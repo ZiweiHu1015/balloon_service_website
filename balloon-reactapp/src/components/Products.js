@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import { Container, Row, Col, Image, Card } from 'react-bootstrap';
+import Carousel from 'react-bootstrap/Carousel';
 
 const Products = () => {
   const [product, setProduct] = useState({
@@ -10,6 +11,7 @@ const Products = () => {
     price: 0,
     image: ''
   });
+
   const { id } = useParams();
 
   useEffect(() => {
@@ -40,7 +42,27 @@ const Products = () => {
     <Container>
       <Row className="justify-content-md-center">
         <Col md={6}>
-          <Image src={product.image} alt={product.name} fluid />
+        
+          <Carousel>
+            <Carousel.Item>
+              <Image src = {product.image} fluid />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <Image src = {product.image} fluid />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+            
+            <Carousel.Item>
+              <Image src = {product.image} fluid />
+              <Carousel.Caption>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
+
         </Col>
         <Col md={6}>
           <Card>
@@ -62,61 +84,3 @@ const Products = () => {
 };
 
 export default Products;
-
-
-/*import React, { Component } from 'react';
-import axios from 'axios';
-import { Link } from 'react-router-dom';
-
-export default class Products extends Component {
-  constructor(props){
-    super(props);
-    
-    this.state = {
-      name: '',
-      description: '',
-      price: 0,
-      image:''
-    };
-
-  }
-
-componentDidMount() {
-  console.log("Component did mount, props:", this.props);
-  if (this.props.match && this.props.match.params) {
-    
-    const productId = this.props.match.params.id;
-    console.log("Product ID:", productId);
-    
-    axios.get(`http://localhost:5000/event/${productId}`)
-    .then(response => {
-      this.setState({
-        name: response.data.name,
-        description: response.data.description,
-        price: response.data.price,
-        image: response.data.image
-      })   
-      console.log("product details: " + this.state);
-    })
-      .catch((error) =>{ 
-        console.log(error);
-        console.log("this is an error");
-      })
-}
-}
-   
-    render() {
-    return (
-     <div>
-      <h1>This is single product page</h1>
-     
-      
-      
-      </div>
-
-
-
-    )
-  }
-}
-*/
