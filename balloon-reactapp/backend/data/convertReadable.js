@@ -2,8 +2,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const inputFile = path.join(__dirname, 'exportedData.json');
-const outputFile = path.join(__dirname, 'sortedDatad.json');
+const inputFile = path.join(__dirname, 'mongoData.json');
+const outputFile = path.join(__dirname, 'readableDatad.json');
 
 //this file is used to sort the data expored from mongo db to more readable json formart
 // Read the file line by line
