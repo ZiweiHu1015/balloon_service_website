@@ -9,7 +9,8 @@ const Products = () => {
     name: '',
     description: '',
     price: 0,
-    image: ''
+    image: '',
+    imageList: []
   });
 
   const { id } = useParams();
@@ -25,7 +26,10 @@ const Products = () => {
             name: response.data.name,
             description: response.data.description,
             price: response.data.price,
-            image: response.data.image
+            image: response.data.image,
+            imageList:response.data.imageList && response.data.imageList.length > 0
+            ? response.data.imageList
+            : [response.data.image]
           });
           console.log("Product data set in state:", product);
         } else {
@@ -38,33 +42,26 @@ const Products = () => {
 
   }, [id]); // Depend on id to re-run the effect when the id changes
 
+  const carouselItems = product.imageList.map((imageUrl, index) => (
+    <Carousel.Item key={index}>
+      <Image src={imageUrl} alt={`Slide ${index}`} fluid />
+    </Carousel.Item>
+  ));
+
+
   return (
     <Container>
       <Row className="justify-content-md-center">
-        <Col md={6}>
+        <Col>
         
-          <Carousel>
-            <Carousel.Item>
-              <Image src = {product.image} fluid />
-              <Carousel.Caption>
-              </Carousel.Caption>
-            </Carousel.Item>
-
-            <Carousel.Item>
-              <Image src = {product.image} fluid />
-              <Carousel.Caption>
-              </Carousel.Caption>
-            </Carousel.Item>
-            
-            <Carousel.Item>
-              <Image src = {product.image} fluid />
-              <Carousel.Caption>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
+          {product.imageList && product.imageList.length > 0 && (
+            <Carousel>
+              {carouselItems}
+            </Carousel>
+          )}
 
         </Col>
-        <Col md={6}>
+        <Col md={4}>
           <Card>
             <Card.Body>
               <Card.Title>{product.name}</Card.Title>
