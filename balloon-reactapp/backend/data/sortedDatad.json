@@ -1,0 +1,69 @@
+[
+  {
+    "name": "balloon hoop package",
+    "description": "Include a balloon hoop with choice of side or diagnal and 6 helium balloons. ",
+    "price": 599,
+    "image": "https://i.postimg.cc/dt5W0Q63/IMG-1762.jpg",
+    "imageList": [
+      "https://i.postimg.cc/dt5W0Q63/IMG-1762.jpg",
+      "https://i.postimg.cc/Kz2hY9vJ/IMG-1806.jpg"
+    ]
+  },
+  {
+    "name": "starter package",
+    "description": "Include one 1.5 feet balloon garland, 6 helium balloons and one customized bubble balloon. ",
+    "price": 299,
+    "image": "https://i.postimg.cc/1RTFCzGh/IMG-5480.jpg",
+    "imageList": [
+      "https://i.postimg.cc/1RTFCzGh/IMG-5480.jpg"
+    ]
+  },
+  {
+    "name": "Balloon Heart Package",
+    "description": "Include a balloon heart, 1.5 feet balloon garland, 6 helium balloons.",
+    "price": "449",
+    "image": "https://i.postimg.cc/tCxBDwVk/IMG-6032.jpg"
+  },
+  {
+    "name": "Standard Wedding Package",
+    "description": "Include two backdrop with balloon garlands attached to both sides, 6 artificial flowers centerpiece, and a 6 meter long aisle carpet.\n",
+    "price": "1280",
+    "image": "https://i.postimg.cc/rFR1PBZK/IMG-5832.jpg"
+  },
+  {
+    "name": "Centerpiece package",
+    "description": "Include 5 centerpieces with fresh roses and mix of greens.",
+    "price": "550",
+    "image": "https://i.postimg.cc/2SLVmWPw/IMG-8682-2.jpg"
+  },
+  {
+    "name": "Bud-vase arrangement",
+    "description": "Include 8 bud-vase arrangements, each vase contains at least two stems and complimentary greens.(Deposit requried. Vases need to be returned after event.)",
+    "price": "180",
+    "image": "https://i.postimg.cc/x8ZNVRpY/IMG-0395.jpg"
+  },
+  {
+    "name": "Mini Centerpieces - artificial flowers",
+    "description": "Include 8 mini centerpieces, ideal for long tables. Need to be returned at end of event. ",
+    "price": "300",
+    "image": "https://i.postimg.cc/K8j5t3b6/IMG-5323.jpg"
+  },
+  {
+    "name": "Balloon Stack Package",
+    "description": "Include one balloon stack and 6 helium balloons.",
+    "price": "150",
+    "image": "https://i.postimg.cc/k5ch76QD/IMG-5699.jpg"
+  },
+  {
+    "name": "Small Balloon Heart",
+    "description": "Include a small balloon heart",
+    "price": "60",
+    "image": "https://i.postimg.cc/h4YQtVqw/IMG-6137.jpg"
+  },
+  {
+    "name": "Happy Birthday Balloon Stack",
+    "description": "Include one balloon stack and 6 helium balloons.",
+    "price": "150",
+    "image": "https://i.postimg.cc/kMLNh0DB/IMG-5680.jpg"
+  }
+]
