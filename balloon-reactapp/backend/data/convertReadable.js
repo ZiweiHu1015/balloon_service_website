@@ -17,7 +17,8 @@ const sortedData = lines.map(line => {
       description: item.description,
       price: item.price,
       image: item.image,
-      imageList: item.imageList
+      imageList: item.imageList,
+      category: item.category 
       // Add other fields if necessary
     };
     return orderedItem;
