@@ -52,7 +52,7 @@ export default class Flower extends Component {
     <Container>
 
     
-        <h3 class="text-center">Flowers</h3>
+        <h3 className="text-center">Flowers</h3>
           
             <Row>
             {this.flowerList()}

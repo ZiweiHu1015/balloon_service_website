@@ -23,6 +23,11 @@ npm install -g nodemon
 
  npm install --save react-datepicker --legacy-peer-deps
 
+5. export and import data
+//export mongo file to local: mongoexport --uri="mongodb+srv://ziweihu98:<password>@bostonggevents.u1njw0p.mongodb.net/test" --collection=events --out=/Users/ziweihu/Desktop/Event_Planning_Project/balloon-reactapp/backend/data/mongoData.json
+
+//import local file to mongodb;   mongoimport --uri="mongodb://localhost:27017/test" --collection=events --file=/Users/ziweihu/Desktop/Event_Planning_Project/balloon-reactapp/backend/data/mongoData.json
+
 
 # Getting Started with Create React App
 

@@ -52,13 +52,10 @@ export default class Event extends Component {
     return (
     <main>
     <Container>
-   
         <h3 className="text-center">Event Packages</h3>
-          
             <Row>
             {this.eventList()}
             </Row>
-          
     </Container>
     </main>
       
