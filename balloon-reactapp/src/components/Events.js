@@ -31,7 +31,8 @@ export default class Event extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:5000/event/')
+    console.log('Backend URL:', process.env.REACT_APP_BACKEND_URL);
+    axios.get(`${process.env.REACT_APP_BACKEND_URL}/event/`)
       .then(response =>{
         console.log(response);
         this.setState({events:response.data})

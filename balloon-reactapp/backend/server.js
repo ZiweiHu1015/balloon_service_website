@@ -32,7 +32,6 @@ connection.once('open', () => {
     console.log("MongoDB database connection established successfully");
 })
 
-
 const eventsRouter = require('./routes/events');
 const flowersRouter = require('./routes/flowers');
 const grabAndGoRouter = require('./routes/grabAndGo');
@@ -45,7 +44,6 @@ app.use("/contactus", contactusRouter);
 
 app.get("/", (req, res) => {
     res.send("Main page");
-
 }); 
 
 app.listen(port, () =>{
