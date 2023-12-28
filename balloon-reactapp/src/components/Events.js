@@ -32,6 +32,7 @@ export default class Event extends Component {
 
   componentDidMount() {
     console.log('Backend URL:', process.env.REACT_APP_BACKEND_URL);
+   
     axios.get(`${process.env.REACT_APP_BACKEND_URL}/event/`)
       .then(response =>{
         console.log(response);
