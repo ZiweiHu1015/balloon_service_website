@@ -23,6 +23,13 @@ app.use(cors({
   }));
 app.use(express.json());
 
+//debug line
+app.use((req, res, next) => {
+    console.log('Incoming request:', req.method, req.url);
+    next();
+});
+
+
 const uri = process.env.ATLAS_URI;
 
 mongoose.connect(uri);
@@ -46,7 +53,12 @@ app.get("/", (req, res) => {
     res.send("Main page");
 }); 
 
-app.listen(port, () =>{
-    console.log(`Server is running on port: ${port}`); 
-    
+//debug message
+app.use((req, res, next) => {
+    res.status(404).send('Not Found');
 });
+
+app.listen(port, () =>{
+    console.log(`Server is running on port: ${port}`);   
+});
+
