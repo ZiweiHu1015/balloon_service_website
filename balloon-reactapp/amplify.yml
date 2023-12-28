@@ -1,11 +1,14 @@
-version: 0.1
+version: 1
 frontend:
   phases:
     preBuild:
-      commands: ["npm install"]
+      commands:
+        - cd balloon-reactapp  # Navigate into the React app directory
+        - npm install
     build:
-      commands: ["npm run build"]
+      commands:
+        - npm run build
   artifacts:
-    baseDirectory: build
+    baseDirectory: balloon-reactapp/build
     files:
       - '**/*'
