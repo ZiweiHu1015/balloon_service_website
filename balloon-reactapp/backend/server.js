@@ -32,7 +32,8 @@ app.use((req, res, next) => {
 
 const uri = process.env.ATLAS_URI;
 
-mongoose.connect(uri, {
+mongoose.connect(uri, { 
+
     ssl: true, // If needed
     // Other options if necessary
 });
