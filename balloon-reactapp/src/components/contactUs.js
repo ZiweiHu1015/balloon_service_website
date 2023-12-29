@@ -37,7 +37,7 @@ export default class ContactUs extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:5000/contactus/')
+    axios.get(`${process.env.REACT_APP_BACKEND_URL}/contactus/`)
       .then(response => {
         if (response.data.length > 0) {
           console.log(response)
