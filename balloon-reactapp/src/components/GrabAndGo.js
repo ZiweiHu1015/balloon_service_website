@@ -29,11 +29,12 @@ export default class GrabAndGo extends Component {
     this.state = {GrabAndGoes:[]};
   }
 
-  componentDidMount() {
-    axios.get('http://localhost:5000/grabAndGo/')
+
+    componentDidMount() {
+      axios.get(`${process.env.REACT_APP_BACKEND_URL}/grabAndGo/`)
       .then(response =>{
         console.log(response);
-        this.setState({GrabAndGoes:response.data})
+        this.setState({events:response.data})
       })
       .catch((error) =>{ 
         console.log(error);

@@ -7,7 +7,7 @@ const allowedOrigins = ['http://localhost:3000', 'https://ziwei.d2f859lvvrqkqv.a
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8080;
  
 //middlewear
 //app.use(cors({origin: 'http://localhost:3000', credentials: true, optionSuccessStatus:200}));
@@ -32,7 +32,10 @@ app.use((req, res, next) => {
 
 const uri = process.env.ATLAS_URI;
 
-mongoose.connect(uri);
+mongoose.connect(uri, {
+    ssl: true, // If needed
+    // Other options if necessary
+});
 
 const connection = mongoose.connection;
 connection.once('open', () => {

@@ -30,16 +30,17 @@ export default class Flower extends Component {
   }
 
   componentDidMount() {
-    axios.get('http://localhost:5000/flower/')
-      .then(response =>{
-        console.log(response);
-        this.setState({flowers:response.data})
-      })
-      .catch((error) =>{ 
-        console.log(error);
-        console.log("this is an error");
-      })
-    }
+    axios.get(`${process.env.REACT_APP_BACKEND_URL}/flower/`)
+    .then(response =>{
+      console.log(response);
+      this.setState({events:response.data})
+    })
+    .catch((error) =>{ 
+      console.log(error);
+      console.log("this is an error");
+    })
+  }
+
     flowerList() {
     return this.state.flowers.map(currentflower => {//for each loop
       return <Eventcard flower={currentflower}  key={currentflower._id}/>;
