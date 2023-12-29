@@ -18,7 +18,7 @@ const Products = () => {
   useEffect(() => {
     console.log(`Attempting to fetch data for product ID: ${id}`);
 
-    axios.get(`http://localhost:5000/event/${id}`)
+    axios.get(`${process.env.REACT_APP_BACKEND_URL}/event/${id}`)
       .then(response => {
         console.log("Response received from server:", response);
         if(response.data) {
