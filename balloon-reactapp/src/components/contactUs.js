@@ -117,7 +117,7 @@ export default class ContactUs extends Component {
   
       console.log(contact);
   
-      axios.post('http://localhost:5000/contactus/', contact)
+      axios.post(`${process.env.REACT_APP_BACKEND_URL}/contactus/`, contact)
         .then(res => console.log(res.data))
         .catch(error =>{
           console.error("Error in submitting form", error.response ? error.response.data : error.message);
