@@ -33,7 +33,7 @@ export default class Flower extends Component {
     axios.get(`${process.env.REACT_APP_BACKEND_URL}/flower/`)
     .then(response =>{
       console.log(response);
-      this.setState({events:response.data})
+      this.setState({flowers:response.data})
     })
     .catch((error) =>{ 
       console.log(error);
@@ -51,15 +51,10 @@ export default class Flower extends Component {
     return (
     <main>
     <Container>
-
-    
-        <h3 className="text-center">Flowers</h3>
-          
+        <h3 className="text-center">Flowers</h3> 
             <Row>
             {this.flowerList()}
             </Row>
-     
-       
     </Container>
     </main>
       

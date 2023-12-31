@@ -34,7 +34,7 @@ export default class GrabAndGo extends Component {
       axios.get(`${process.env.REACT_APP_BACKEND_URL}/grabAndGo/`)
       .then(response =>{
         console.log(response);
-        this.setState({events:response.data})
+        this.setState({GrabAndGoes:response.data})
       })
       .catch((error) =>{ 
         console.log(error);
