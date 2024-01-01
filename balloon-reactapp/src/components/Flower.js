@@ -11,10 +11,10 @@ const Eventcard = props => (//event card component
         <Card.Body>
           <Card.Title>{props.flower.name}</Card.Title>
           <Card.Text>
-           
-           <p>{props.flower.price+`$`}</p>
-           <p>{props.flower.description}</p>
-            
+            {props.flower.price+`$`}
+          </Card.Text>
+          <Card.Text>
+            {props.flower.description}
           </Card.Text>
           <Link to= {`/products/${props.flower._id}`} className="btn btn-primary">Learn More</Link>
       </Card.Body>
