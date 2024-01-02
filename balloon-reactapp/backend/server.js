@@ -1,7 +1,10 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
-const allowedOrigins = ['http://localhost:3000', 'https://ziwei.d2f859lvvrqkqv.amplifyapp.com'];
+const allowedOrigins = ['http://localhost:3000', 
+                        'https://ziwei.d2f859lvvrqkqv.amplifyapp.com',
+                        'http://boston-gg-events.us-east-1.elasticbeanstalk.com',
+                        'https://boston-gg-events.us-east-1.elasticbeanstalk.com'];
 
 
 require('dotenv').config();
