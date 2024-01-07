@@ -14,10 +14,9 @@ const Eventcard = props => (//event card component
           {props.event.price+`$`}
           </Card.Text>
           <Card.Text>
-          {props.event.description}
+            {props.event.description}
           </Card.Text>
           <Link to= {`/products/${props.event._id}`} className="btn btn-primary">Learn More</Link>
-          
       </Card.Body>
     </Card>
   </Col>

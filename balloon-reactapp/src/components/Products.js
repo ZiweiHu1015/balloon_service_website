@@ -48,6 +48,12 @@ const Products = () => {
     </Carousel.Item>
   ));
 
+  const formattedDescription = product.description.split(',').map((item, index) => (
+    <React.Fragment key={index}>
+      {item.trim()}{index < product.description.split(',').length - 1 && ','}
+      <br />
+    </React.Fragment>
+  ));
 
   return (
     <Container>
@@ -69,9 +75,11 @@ const Products = () => {
                 <strong>Price:</strong> ${product.price}
               </Card.Text>
               <Card.Text>
-                {product.description}
+               {formattedDescription}
               </Card.Text>
-              {/* Add more product details here */}
+              
+             
+          
             </Card.Body>
           </Card>
         </Col>

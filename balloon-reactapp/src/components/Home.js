@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import  { Row, Col, Image, Container, Card, Button} from "react-bootstrap";
+import '../App.css';
 import logo from './images/logo/logo.png';
 import { Link } from 'react-router-dom';
-
 import Carousel from 'react-bootstrap/Carousel';
 import EncorePink from './images/balloons/EncorePinkOne.jpg';
 import Davios_seaport from './images/balloons/Davios_seaport.jpg';
@@ -60,7 +60,7 @@ export default class Home extends Component {
             <h1>
               Take Your Parties to New Heights with Our Events Decor & Styling!
             </h1>
-            <Button variant = "outline-primary">Take Our Quiz!</Button>
+            <Link to= "/contactUs" className="btn btn-primary">Learn More</Link>
           </Col>
             
           <Col sm = {7}> 

@@ -1,9 +1,7 @@
-
-.App {
-  font-family: 'Merriweather', serif;
-}
-.Events_Font{
-  font-family: 'Merriweather', serif;
+body {
+  font-family: 'Arial', sans-serif; /* Modern font */
+  color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 .App-logo {
@@ -73,3 +71,4 @@ a.instagram {
     transform: rotate(360deg);
   }
 }
+
