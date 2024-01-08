@@ -1,7 +1,7 @@
 [
   {
     "name": "balloon hoop package",
-    "description": "One balloon hoop, 6 helium balloons, One custom bubble balloon. ",
+    "description": "One balloon hoop with choice of full, side or diagonal, One custom bubble balloon, 6 helium balloons, Set up and take off ",
     "price": 599,
     "image": "https://i.postimg.cc/dt5W0Q63/IMG-1762.jpg",
     "imageList": [
@@ -24,7 +24,7 @@
   },
   {
     "name": "Balloon Heart Package",
-    "description": "One balloon heart, One 5-feet balloon garland, 6 helium balloons.",
+    "description": "One balloon heart, One 5-feet balloon garland, 6 helium balloons, One custom bubble balloon.",
     "price": "449",
     "image": "https://i.postimg.cc/tCxBDwVk/IMG-6032.jpg",
     "imageList": [
@@ -35,7 +35,7 @@
   },
   {
     "name": "Standard Wedding Package",
-    "description": "One 7-feet backdrop, One 6-feet backdrop, One 8-feet balloon garland, One 4-feet balloon garland, 6 artificial flowers centerpiece, 6 meter long aisle carpet.\n",
+    "description": "One 7-feet backdrop, One 6-feet backdrop, One 8-feet balloon garland, One 4-feet balloon garland, 6 artificial flowers centerpiece, One custom bubble balloon Set up and take off.\n",
     "price": "1280",
     "image": "https://i.postimg.cc/rFR1PBZK/IMG-5832.jpg",
     "category": "event"
@@ -45,46 +45,53 @@
     "description": "Include 5 centerpieces with fresh roses and mix of greens.",
     "price": "550",
     "image": "https://i.postimg.cc/2SLVmWPw/IMG-8682-2.jpg",
-    "category": "flower"
+    "category": "flower, rental"
   },
   {
     "name": "Bud-vase arrangement",
-    "description": "Include 8 bud-vase arrangements, each vase contains at least two stems and complimentary greens.(Deposit requried. Vases need to be returned after event.)",
+    "description": "10 bud-vase arrangements.",
     "price": "180",
     "image": "https://i.postimg.cc/x8ZNVRpY/IMG-0395.jpg",
-    "category": "flower"
+    "category": "flower, rental"
   },
   {
     "name": "Mini Centerpieces - artificial flowers",
-    "description": "Include 8 mini centerpieces, ideal for long tables. Need to be returned at end of event. ",
+    "description": "8 mini centerpieces",
     "price": "300",
     "image": "https://i.postimg.cc/K8j5t3b6/IMG-5323.jpg",
-    "category": "flower"
+    "category": "flower, rental"
   },
   {
     "name": "Balloon Stack Package",
-    "description": "Include one balloon stack and 6 helium balloons.",
+    "description": "One balloon marquee, 6 helium balloons.",
     "price": "150",
     "image": "https://i.postimg.cc/k5ch76QD/IMG-5699.jpg",
-    "category": "grabAndGo"
+    "category": "grabAndGo, add-on"
   },
   {
-    "name": "Small Balloon Heart",
-    "description": "Include a small balloon heart",
+    "name": "5 feet balloon garland",
+    "description": "One 5 feet balloon garland.",
+    "price": "80",
+    "image": "https://i.postimg.cc/Fzg0Sjt6/IMG-0936-2.jpg",
+    "category": "grabAndGo, add-on"
+  },
+  {
+    "name": "Small Balloon Heart", 
+    "description": "One small balloon heart",
     "price": "60",
     "image": "https://i.postimg.cc/h4YQtVqw/IMG-6137.jpg",
     "imageList": [
       "https://i.postimg.cc/h4YQtVqw/IMG-6137.jpg",
       "https://i.postimg.cc/CxCZCGN1/IMG-0874-2.jpg"
     ],
-    "category": "grabAndGo"
+    "category": "grabAndGo, add-on"
   },
   {
     "name": "Happy Birthday Balloon Stack",
-    "description": "Include one balloon stack and 6 helium balloons.",
+    "description": "One balloon marquee, 6 helium balloons.",
     "price": "150",
     "image": "https://i.postimg.cc/kMLNh0DB/IMG-5680.jpg",
-    "category": "grabAndGo"
+    "category": "grabAndGo,  add-on"
   }
 ]
 

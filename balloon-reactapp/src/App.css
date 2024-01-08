@@ -1,6 +1,5 @@
 .App{
-  font-family: 'Merriweather', serif;
-
+  font-family: 'Lora', serif;
 }
 
 .App-logo {
@@ -108,5 +107,3 @@ a.instagram {
   display: block; /* Ensure it starts on a new line */
   margin-bottom: 5px; /* Spacing between this text and the bullet points */
 }
-
-

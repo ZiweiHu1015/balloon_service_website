@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav, Row, Col, Image   } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import logo from './images/logo/logo.png';
 
 export default class NavbarComp extends Component {
   constructor(props) {
@@ -21,8 +22,18 @@ export default class NavbarComp extends Component {
 
   render() {
     return (
+
+     
+
       <div>
-        <Navbar expand="lg" className="bg-body-tertiary" expanded={this.state.expanded}>
+         <Row className ="justify-content-md-center" style={{ margin: '20px'}}>
+            <Col xs={12} sm={4} md={4}> 
+            <Image src = {logo} fluid />
+            </Col>
+          </Row>
+ 
+          <Navbar expand="lg" className="bg-body-tertiary" expanded={this.state.expanded} style={{ margin: '20px'}}>
+          
           <Container>
             <Navbar.Brand as={Link} to="/" onClick={this.closeNavbar}>Boston_GG_Events</Navbar.Brand>
             <Navbar.Toggle onClick={this.toggleNavbar} aria-controls="basic-navbar-nav" />

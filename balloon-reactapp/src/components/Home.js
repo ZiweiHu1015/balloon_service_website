@@ -16,15 +16,12 @@ export default class Home extends Component {
     return (
       
       <main>
+        
       <Container>
         {/*logo*/}
-          <Row className ="justify-content-md-center">
-            <Col xs={12} sm={4} md={4}> 
-            <Image src = {logo} fluid />
-            </Col>
-          </Row>
+        
         {/*Carousel pictures*/}
-          <Carousel>
+          <Carousel >
             <Carousel.Item>
               <Image src = {EncorePink} fluid />
               <Carousel.Caption>
@@ -44,107 +41,82 @@ export default class Home extends Component {
             </Carousel.Item>
           </Carousel>
          
-        
-      {/*upper grey bar*/}
-        <Row>
-          <Card className = "text-center bg-secondary text-white my-5 py4">
-            <Card.Body>
-
-            </Card.Body>
-          </Card>
-        </Row>
 
       {/*intro text*/}
-        <Row className ="justify-content-md-center">
-          <Col sm = {5}> 
-            <h1>
-              Take Your Parties to New Heights with Our Events Decor & Styling!
+      <div style={{ margin: '50px' }} >
+    <Row className="justify-content-md-center text-center">
+        <Col> 
+            <h1 style={{ margin: '20px', fontWeight: 'bold', color: '#845365'}}>
+                Let's Make Your Party Memorable!
             </h1>
-            <Link to= "/contactUs" className="btn btn-outline-secondary">Contact Us Today</Link>
+            <div style={{ margin: '20px', textAlign: 'center' }}>
+                <Link to="/contactUs" className="btn btn-outline-secondary">
+                    Contact Us Today
+                </Link>
+            </div>
+        </Col>
+    </Row>
+</div>
+
+
+   
+
+      {/*cards for display*/}
+      <div classNme ="dark-gray-text">
+      <Row className="mb-3">
+        <Col md={6} className="d-flex align-items-stretch">
+          <img src={EncoreBlack} alt="Onsite Installation" style={{ width: '100%' }} />
+        </Col>
+        <Col md={6} className="d-flex align-items-stretch" style={{ paddingTop: '20px' }}>
+          <div>
+            <h3 style={{margin: '20px',fontWeight: 'bold'}}>Onsite Installation</h3>
+            <p style={{ color: '#757575', margin: '20px'}}>
+            Based in North Quincy, MA, we provide onsite balloon installations in the greater Boston region, 
+            including but not limited to Boston, Cambridge, Allston, Brookline, Brighton, Somerville, Waltham, Newton, 
+            and Lexington. Our on-site installation services start from $299, depending on the design and location. 
+            This price includes setup, delivery, and balloon designs.
+            </p>
+            <Link style={{margin: '20px'}} to="/event" className="btn btn-outline-secondary">Learn More</Link>
+          </div>
+        </Col>
+      </Row>
+
+      <Row className="mb-3">
+          <Col md={6} className="order-md-2 d-flex align-items-stretch">
+            <img src={tallCenterPiece} alt="Flowers" style={{ width: '100%' }} />
           </Col>
-            
-          <Col sm = {7}> 
-            <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to Boston_GG_Events, where we specialize in elevating the ambiance 
-            of your events. From birthdays and anniversaries to proposals, engagements, and 
-            significant milestones like a child's first birthday or a graduation, we offer 
-            sophisticated decoration solutions. 
-            </p>
-            
-            <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Unsure about your event's details? Take our custom event quiz for clearer 
-            vision and personalized recommendations. Share your questions, comments, 
-            and even upload pictures at the end!
-            </p>
+          <Col md={6} className="order-md-1 d-flex align-items-stretch" style={{ paddingTop: '20px' }}>
+            <div>
+              <h3 style={{margin: '20px', fontWeight: 'bold'}}>Flowers</h3>
+              <p style={{ color: '#757575', margin: '20px'}}>
+                Discover the charm of our floral services, offering both exquisite real and artificial flower arrangements.
+                We offer both fresh flower design and artificial flower rental services. 
+                Flowers are available exclusively as an add-on to our onsite packages.
+              </p>
+              <Link style={{margin: '20px'}} to="/flower" className="btn btn-outline-secondary">Learn More</Link>
+            </div>
           </Col>
       </Row>
 
-      {/*lower grey bar*/}
-       <Row>
-          <Card className = "text-center bg-secondary text-white my-5 py4">
-            <Card.Body>
+      <Row className="mb-3">
+          <Col md={6} className="d-flex align-items-stretch">
+            <img src={happyBDay} alt="Grab and Go" style={{ width: '100%' }} />
+          </Col>
+          <Col md={6} className="d-flex align-items-stretch"style={{ paddingTop: '20px' }}>
+            <div>
+              <h3 style={{margin: '20px', fontWeight: 'bold'}}>Grab and Go</h3>
+              <p style={{color: '#757575', margin: '20px'}}>
+                Quick, grab-and-go balloon service - perfect for last-minute celebrations. 
+                Pickup already inflated balloon designs, add instant joy and color to your event.
 
-            </Card.Body>
-
-          </Card>
-        </Row>
-
-      {/*cards for display*/}
-        <Row >
-        <Col className="d-flex align-items-stretch">
-            <Card className = "cards" style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={EncoreBlack}/>
-                <Card.Body>
-                  <Card.Title>Events Decoration</Card.Title>
-                  <Card.Text>
-                    Sit back, relax, and enjoy your special occasion 
-                    while we expertly handle every aspect of the decoration.
-                  </Card.Text>
-                  </Card.Body>
-                  <Card.Footer>
-                  <Link to= "/event" className="btn btn-outline-secondary">Learn More</Link>
-                  </Card.Footer>
-              
-            </Card>
-        </Col>
-          
-        <Col className = "d-flex align-items-stretch">
-          <Card className = "cards" style={{ width: '18rem' }}>
-            <Card.Img 
-                variant="top" 
-                src={tallCenterPiece}/>
-              <Card.Body>
-                <Card.Title>Flowers</Card.Title>
-                <Card.Text>
-                  Discover the charm of our floral services, 
-                  offering both exquisite real and artificial flower arrangements. 
-                </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                <Link to= "/flower" className="btn btn-outline-secondary">Learn More</Link>
-                </Card.Footer>
-          </Card>
-        </Col>
-        
-        <Col className="d-flex align-items-stretch">
-          <Card className = "cards" style={{width: '18rem' }}>
-            <Card.Img  variant="top"  src={happyBDay}/>
-              <Card.Body>
-                <Card.Title>Grab and Go</Card.Title>
-                <Card.Text>
-                Quick, grab-and-go balloon service - perfect for last-minute 
-                celebrations. Add instant joy and color to your event.
-                </Card.Text>
-                </Card.Body>
-                
-                <Card.Footer>
-                <Link to= "/grabAndGo" className="btn btn-outline-secondary">Learn More</Link>
-                </Card.Footer>
-          </Card>
-        </Col>
-        </Row>
+              </p>
+              <Link style={{margin: '20px'}} to="/grabAndGo" className="btn btn-outline-secondary">Learn More</Link>
+            </div>
+          </Col>
+      </Row>
+      </div>    
         </Container>
-     </main>
-    )
-  }
-}
+        </main>
+        )
+      }
+    }
