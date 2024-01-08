@@ -60,7 +60,7 @@ export default class Home extends Component {
             <h1>
               Take Your Parties to New Heights with Our Events Decor & Styling!
             </h1>
-            <Link to= "/contactUs" className="btn btn-primary">Learn More</Link>
+            <Link to= "/contactUs" className="btn btn-outline-secondary">Contact Us Today</Link>
           </Col>
             
           <Col sm = {7}> 
@@ -100,7 +100,7 @@ export default class Home extends Component {
                     Sit back, relax, and enjoy your special occasion 
                     while we expertly handle every aspect of the decoration.
                   </Card.Text>
-                  <Link to= "/event" className="btn btn-primary">Learn More</Link>
+                  <Link to= "/event" className="btn btn-outline-secondary">Learn More</Link>
               </Card.Body>
             </Card>
         </Col>
@@ -116,7 +116,7 @@ export default class Home extends Component {
                   Discover the charm of our floral services, 
                   offering both exquisite real and artificial flower arrangements. 
                 </Card.Text>
-                <Link to= "/flower" className="btn btn-primary">Learn More</Link>
+                <Link to= "/flower" className="btn btn-outline-secondary">Learn More</Link>
             </Card.Body>
           </Card>
         </Col>
@@ -132,7 +132,7 @@ export default class Home extends Component {
                 Quick, grab-and-go balloon service - perfect for last-minute 
                 celebrations. Add instant joy and color to your event.
                 </Card.Text>
-                <Link to= "/grabAndGo" className="btn btn-primary">Learn More</Link>
+                <Link to= "/grabAndGo" className="btn btn-outline-secondary">Learn More</Link>
             </Card.Body>
           </Card>
         </Col>

@@ -3,25 +3,39 @@ import '../App.css';
 import  { Row, Col, Image, Container, Card, Button} from "react-bootstrap";
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-const Eventcard = props => (//event card component 
- 
-  <Col className="d-flex align-items-stretch">
-    <Card className = "cards" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={props.flower.image}/>
+
+
+
+const Eventcard = props => {
+  // Splitting the description at each comma (or change ',' to your preferred delimiter)
+  const descriptionParts = props.flower.description.split(',').map(part => part.trim());
+
+  return (
+    <Col className="d-flex align-items-stretch">
+      <Card className="cards" style={{ width: '18rem' }}>
+        <Card.Img variant="top" src={props.flower.image}/>
         <Card.Body>
           <Card.Title>{props.flower.name}</Card.Title>
+          <Card.Text>${props.flower.price}</Card.Text>
           <Card.Text>
-            {props.flower.price+`$`}
+          {descriptionParts.map((part, index) => (
+          <div key={index} className="description-line">
+            <span className="description-text">{part}</span>
+          </div>
+        ))}
           </Card.Text>
-          <Card.Text>
-            {props.flower.description}
-          </Card.Text>
-          <Link to= {`/products/${props.flower._id}`} className="btn btn-primary">Learn More</Link>
-      </Card.Body>
-    </Card>
-  </Col>
-  
-)
+        </Card.Body>
+        
+        <Card.Footer>
+          <Link to={`/products/${props.flower._id}`} className="btn btn-outline-secondary">
+            Learn More
+          </Link>
+        </Card.Footer>
+      </Card>
+    </Col>
+  );
+}
+
 
 export default class Flower extends Component {
   constructor(props){

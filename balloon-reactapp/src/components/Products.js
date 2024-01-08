@@ -48,25 +48,20 @@ const Products = () => {
     </Carousel.Item>
   ));
 
-  const formattedDescription = product.description.split(',').map((item, index) => (
-    <React.Fragment key={index}>
-      {item.trim()}{index < product.description.split(',').length - 1 && ','}
-      <br />
-    </React.Fragment>
-  ));
+  const descriptionParts = product.description.split(',').map(part => part.trim());
+
 
   return (
     <Container>
       <Row className="justify-content-md-center">
         <Col>
-        
           {product.imageList && product.imageList.length > 0 && (
             <Carousel>
               {carouselItems}
             </Carousel>
           )}
-
         </Col>
+        
         <Col md={4}>
           <Card>
             <Card.Body>
@@ -75,11 +70,13 @@ const Products = () => {
                 <strong>Price:</strong> ${product.price}
               </Card.Text>
               <Card.Text>
-               {formattedDescription}
+              <span className="includes-text">Includes:</span>
+                {descriptionParts.map((part, index) => (
+                  <div key={index} className="description-line">
+                    <span className="description-text">{part}</span>
+                  </div>
+                ))}
               </Card.Text>
-              
-             
-          
             </Card.Body>
           </Card>
         </Col>
