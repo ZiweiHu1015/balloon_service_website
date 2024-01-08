@@ -15,7 +15,7 @@ export default class Footer extends Component {
     <Row className="social-container">
         <Col sm = {4}>
         <h3 >Let's stay connected</h3>
-            <a href="https://www.instagram.com"
+            <a href="https://i.postimg.cc/vTpfppMW/IMG-0960.jpg"
                 className="weixin social">
                 <FontAwesomeIcon icon={faWeixin} size="2x" />
             </a>
@@ -33,6 +33,7 @@ export default class Footer extends Component {
         <Col sm = {6}>
             <p>Location: North Quincy, MA</p>
             <p>Email: bostonggevents@gmail.com</p>
+            <p>Wechat ID: _OceanBlue_</p>
             <p>Msg: 617-412-7280</p>
         </Col>
         

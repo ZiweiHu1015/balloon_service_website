@@ -226,7 +226,7 @@ export default class ContactUs extends Component {
           </div>
          
 
-          <button type="submit" className="btn btn-primary">Submit</button>
+          <button type="submit" className="btn btn-outline-secondary">Submit</button>
 
 
         </form>
