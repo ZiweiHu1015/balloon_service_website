@@ -22,9 +22,6 @@ export default class NavbarComp extends Component {
 
   render() {
     return (
-
-     
-
       <div>
          <Row className ="justify-content-md-center" style={{ margin: '20px'}}>
             <Col xs={12} sm={4} md={4}> 
