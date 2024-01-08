@@ -100,8 +100,11 @@ export default class Home extends Component {
                     Sit back, relax, and enjoy your special occasion 
                     while we expertly handle every aspect of the decoration.
                   </Card.Text>
+                  </Card.Body>
+                  <Card.Footer>
                   <Link to= "/event" className="btn btn-outline-secondary">Learn More</Link>
-              </Card.Body>
+                  </Card.Footer>
+              
             </Card>
         </Col>
           
@@ -116,27 +119,29 @@ export default class Home extends Component {
                   Discover the charm of our floral services, 
                   offering both exquisite real and artificial flower arrangements. 
                 </Card.Text>
+                </Card.Body>
+                <Card.Footer>
                 <Link to= "/flower" className="btn btn-outline-secondary">Learn More</Link>
-            </Card.Body>
+                </Card.Footer>
           </Card>
         </Col>
         
         <Col className="d-flex align-items-stretch">
           <Card className = "cards" style={{width: '18rem' }}>
-            <Card.Img 
-                  variant="top" 
-                  src={happyBDay}/>
+            <Card.Img  variant="top"  src={happyBDay}/>
               <Card.Body>
                 <Card.Title>Grab and Go</Card.Title>
                 <Card.Text>
                 Quick, grab-and-go balloon service - perfect for last-minute 
                 celebrations. Add instant joy and color to your event.
                 </Card.Text>
+                </Card.Body>
+                
+                <Card.Footer>
                 <Link to= "/grabAndGo" className="btn btn-outline-secondary">Learn More</Link>
-            </Card.Body>
+                </Card.Footer>
           </Card>
         </Col>
-        
         </Row>
         </Container>
      </main>
