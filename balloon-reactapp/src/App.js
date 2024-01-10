@@ -2,9 +2,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './components/NavbarComp';
 import Footer from './components/Footer';
-
-
-
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,7 +12,8 @@ import Event from './components/Events';
 import ContactUs from './components/contactUs';
 import Flower from './components/Flower';
 import GrabAndGo from './components/GrabAndGo';
-import Products from './components/Products'
+import Products from './components/Products';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -29,6 +27,7 @@ function App() {
             <Route path = "/grabAndGo" element = {<GrabAndGo/>}/>
             <Route path = "/contactUs" element = {<ContactUs/>} />
             <Route path = "/products/:id" element = {<Products/>} />
+            <Route path = "/Login" element = {<Login/>} />
 
         </Routes>
     </div>
