@@ -39,7 +39,7 @@ export default class Footer extends Component {
         
     </Row>  
         <p className = "text-center">
-            Copyright 2023 Boston_GG_Events
+            Copyright © 2024 by Ziwei Hu. All rights reserved.
         </p>
       
     </footer>

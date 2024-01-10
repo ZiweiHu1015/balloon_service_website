@@ -45,35 +45,35 @@
     "description": "Include 5 centerpieces with fresh roses and mix of greens.",
     "price": "550",
     "image": "https://i.postimg.cc/2SLVmWPw/IMG-8682-2.jpg",
-    "category": "flower, rental"
+    "category": "flower"
   },
   {
     "name": "Bud-vase arrangement",
     "description": "10 bud-vase arrangements.",
     "price": "180",
     "image": "https://i.postimg.cc/x8ZNVRpY/IMG-0395.jpg",
-    "category": "flower, rental"
+    "category": "flower"
   },
   {
     "name": "Mini Centerpieces - artificial flowers",
     "description": "8 mini centerpieces",
     "price": "300",
     "image": "https://i.postimg.cc/K8j5t3b6/IMG-5323.jpg",
-    "category": "flower, rental"
+    "category": "flower"
   },
   {
     "name": "Balloon Stack Package",
     "description": "One balloon marquee, 6 helium balloons.",
     "price": "150",
     "image": "https://i.postimg.cc/k5ch76QD/IMG-5699.jpg",
-    "category": "grabAndGo, add-on"
+    "category": "grabAndGo"
   },
   {
     "name": "5 feet balloon garland",
     "description": "One 5 feet balloon garland.",
     "price": "80",
     "image": "https://i.postimg.cc/Fzg0Sjt6/IMG-0936-2.jpg",
-    "category": "grabAndGo, add-on"
+    "category": "grabAndGo"
   },
   {
     "name": "Small Balloon Heart", 
@@ -84,14 +84,14 @@
       "https://i.postimg.cc/h4YQtVqw/IMG-6137.jpg",
       "https://i.postimg.cc/CxCZCGN1/IMG-0874-2.jpg"
     ],
-    "category": "grabAndGo, add-on"
+    "category": "grabAndGo"
   },
   {
     "name": "Happy Birthday Balloon Stack",
     "description": "One balloon marquee, 6 helium balloons.",
     "price": "150",
     "image": "https://i.postimg.cc/kMLNh0DB/IMG-5680.jpg",
-    "category": "grabAndGo,  add-on"
+    "category": "grabAndGo"
   }
 ]
 
