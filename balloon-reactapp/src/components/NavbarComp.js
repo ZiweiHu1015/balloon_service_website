@@ -25,7 +25,7 @@ export default class NavbarComp extends Component {
       <div>
          <Row className ="justify-content-md-center" style={{ margin: '20px'}}>
             <Col xs={12} sm={4} md={4}> 
-            <Image src = {logo} fluid />
+            <p style={{ color: '#845365', textAlign: 'center', fontSize: '40px', fontWeight: 'bold', fontFamily: 'Lemon, serif' }}>GG Party & Balloons</p>
             </Col>
           </Row>
  
