@@ -23,19 +23,19 @@ export default class Home extends Component {
         {/*Carousel pictures*/}
           <Carousel >
             <Carousel.Item>
-              <Image src = {EncorePink} fluid />
+              <Image src = "https://i.postimg.cc/KvhGdtLC/IMG-1093.jpg" fluid />
               <Carousel.Caption>
               </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
-              <Image src = {Davios_seaport} fluid />
+              <Image src = "https://i.postimg.cc/GpQwQ7WZ/IMG-0893.jpg" fluid />
               <Carousel.Caption>
               </Carousel.Caption>
             </Carousel.Item>
             
             <Carousel.Item>
-              <Image src = {NH_heart1} fluid />
+              <Image src = "https://i.postimg.cc/Sx3gCW1c/IMG-1001.jpg" fluid />
               <Carousel.Caption>
               </Carousel.Caption>
             </Carousel.Item>

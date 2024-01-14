@@ -1,20 +1,66 @@
 [
   {
     "name": "balloon hoop package",
-    "description": "Include a balloon hoop with choice of side or diagnal and 6 helium balloons. ",
+    "description": "One balloon hoop, One custom helium bubble balloon, One set of helium ballooon bonquet, Set up included ",
     "price": 599,
     "image": "https://i.postimg.cc/dt5W0Q63/IMG-1762.jpg",
     "imageList": [
       "https://i.postimg.cc/dt5W0Q63/IMG-1762.jpg",
       "https://i.postimg.cc/Kz2hY9vJ/IMG-1806.jpg",
       "https://i.postimg.cc/jd4Rb6sy/IMG-2734.jpg",
-      "https://i.postimg.cc/gksjnzkX/IMG-8715.jpg",
+      "https://i.postimg.cc/gksjnzkX/IMG-8715.jpg"
+    ],
+    "category": "event"
+  },
+  
+  {
+    "name": "Helium balloon with Neon Sign ",
+    "description": "Four Sets of heart helium balloons, Three set of latex helium ballooons, One custom helium bubble balloon, One neon sign(rental), Set-up included",
+    "price": 299,
+    "image": "https://i.postimg.cc/GpQwQ7WZ/IMG-0893.jpg",
+    "imageList": [
+      "https://i.postimg.cc/GpQwQ7WZ/IMG-0893.jpg",
+      "https://i.postimg.cc/hjZ99nph/IMG-0891.jpg"
+    ],
+    "category": "event"
+  },
+  {
+    "name": "Marryme fresh flower package",
+    "description": "One large balloon hear, Eight fresh flower centerpieces with roses and babysbreath, Five mini vases of fresh flowers, Marry-me neon sign(rental),Set-up included",
+    "price": 1200,
+    "image": "https://i.postimg.cc/hvkCQGWb/1159.jpg",
+    "imageList": [
+      "https://i.postimg.cc/hvkCQGWb/1159.jpg",
+      "https://i.postimg.cc/NFc3ZbLw/IMG-6090.jpg"
+    ],
+    "category": "event"
+  },
+
+  {
+    "name": "Helium balloon with flower centerpieces",
+    "description": "Four custom helium bubble balloons, Four foil heart helium balloon sets, Two fresh flower centerpieces with roses hydrangea and babysbreath, Set-up included",
+    "price": 560,
+    "image": "https://i.postimg.cc/Sx3gCW1c/IMG-1001.jpg",
+    "imageList": [
+      "https://i.postimg.cc/Sx3gCW1c/IMG-1001.jpg",
+      "https://i.postimg.cc/9M94Wt0c/IMG-1004.jpg",
+      "https://i.postimg.cc/Xqq5sPpq/IMG-1002.jpg"
+    ],
+    "category": "event"
+  },
+  {
+    "name": "Balloon heart package", 
+    "description": "One balloon heart, One custom helium bubble balloon, one set of helium ballon bouquet, Set-up included.",
+    "price": "320",
+    "image": "https://i.postimg.cc/QMjTmKpY/IMG-9168.jpg",
+    "imageList": [
+      "https://i.postimg.cc/QMjTmKpY/IMG-9168.jpg"
     ],
     "category": "event"
   },
   {
     "name": "starter package",
-    "description": "Include one 1.5 feet balloon garland, 6 helium balloons and one customized bubble balloon. ",
+    "description": "One 5-feet balloon garland, One customized helium bubble balloon, one set of helium ballon bouquet, One basic number stack, Set-up included. ",
     "price": 299,
     "image": "https://i.postimg.cc/1RTFCzGh/IMG-5480.jpg",
     "imageList": [
@@ -24,10 +70,10 @@
   },
   {
     "name": "Balloon Heart Package",
-    "description": "Include a balloon heart, 1.5 feet balloon garland, 6 helium balloons.",
+    "description": "One balloon heart, One 6-feet balloon garland, 8 helium balloons, One custom helium bubble balloon, Set-up included.",
     "price": "449",
     "image": "https://i.postimg.cc/tCxBDwVk/IMG-6032.jpg",
-    "imageList":[
+    "imageList": [
       "https://i.postimg.cc/tCxBDwVk/IMG-6032.jpg",
       "https://i.postimg.cc/PJpf02yH/IMG-8810.jpg"
     ],
@@ -35,53 +81,93 @@
   },
   {
     "name": "Standard Wedding Package",
-    "description": "Two backdrops with balloon garlands attached to both sides, 6 artificial flowers centerpiece, and a 6 meter long aisle carpet.\n",
+    "description": "One 7-feet backdrop, One 6-feet backdrop, One 8-feet balloon garland, One 4-feet balloon garland, 6 artificial flowers centerpiece, One custom bubble balloon, Set up and take off included.\n",
     "price": "1280",
     "image": "https://i.postimg.cc/rFR1PBZK/IMG-5832.jpg",
     "category": "event"
   },
   {
-    "name": "Centerpiece package",
+    "name": "Rose centerpieces",
     "description": "5 centerpieces with fresh roses and mix of greens.",
-    "price": "550",
+    "price": "600",
     "image": "https://i.postimg.cc/2SLVmWPw/IMG-8682-2.jpg",
     "category": "flower"
   },
   {
+    "name": "Rose & hydrangea centerpieces",
+    "description": "2 centerpieces with fresh roses hydrangea and babysbreath.",
+    "price": "220",
+    "image": "https://i.postimg.cc/D0r51ZYF/IMG-0980.jpg",
+    "imageList": [
+      "https://i.postimg.cc/D0r51ZYF/IMG-0980.jpg",
+      "https://i.postimg.cc/Xqq7CGvB/IMG-0995.jpg"
+    ],
+    "category": "flower"
+  },
+  {
+    "name": "Round Centerpieces - artificial flowers",
+    "description": "4 Round artificial centerpieces(rental).",
+    "price": "300",
+    "image": "https://i.postimg.cc/65yQcpsL/IMG-5931.jpg",
+    "imageList": [
+      "https://i.postimg.cc/65yQcpsL/IMG-5931.jpg",
+      "https://i.postimg.cc/bNKB535V/IMG-5892.jpg"
+    ],
+    "category": "flower"
+  },
+  {
+    "name": "sign-in board package", 
+    "description": "One designed Welcome board, One Oil painting sign-in board, two easels(rental), Set-up included",
+    "price": "300",
+    "image": "https://i.postimg.cc/JzwCV1gL/IMG-5932-2.jpg",
+    "imageList": [
+      "https://i.postimg.cc/JzwCV1gL/IMG-5932-2.jpg"
+    ],
+    "category": "event"
+  },
+  {
     "name": "Bud-vase arrangement",
-    "description": "8 bud-vase arrangements, each vase contains at least two stems and complimentary greens.",
+    "description": "10 bud-vase arrangements with at least two stems each, Vase included, Set-up included.",
     "price": "180",
     "image": "https://i.postimg.cc/x8ZNVRpY/IMG-0395.jpg",
     "category": "flower"
   },
   {
     "name": "Mini Centerpieces - artificial flowers",
-    "description": "8 mini centerpieces, ideal for long tables. Need to be returned at end of event. ",
+    "description": "8 square centerpieces(rental)",
     "price": "300",
     "image": "https://i.postimg.cc/K8j5t3b6/IMG-5323.jpg",
     "category": "flower"
   },
   {
     "name": "Balloon Stack Package",
-    "description": "One balloon stack and 6 helium balloons.",
+    "description": "One balloon marquee, One set of helium ballooon bonquet.",
     "price": "150",
     "image": "https://i.postimg.cc/k5ch76QD/IMG-5699.jpg",
     "category": "grabAndGo"
   },
   {
-    "name": "Small Balloon Heart",
+    "name": "5 feet balloon garland",
+    "description": "One 5 feet balloon garland.",
+    "price": "80",
+    "image": "https://i.postimg.cc/XXMv915T/IMG-0936-2.jpg",
+    "category": "grabAndGo"
+  },
+  {
+    "name": "Small Balloon Heart", 
     "description": "One small balloon heart",
     "price": "60",
     "image": "https://i.postimg.cc/h4YQtVqw/IMG-6137.jpg",
-    "imageList":[
+    "imageList": [
       "https://i.postimg.cc/h4YQtVqw/IMG-6137.jpg",
-      "https://i.postimg.cc/CxCZCGN1/IMG-0874-2.jpg"
+      "https://i.postimg.cc/CxCZCGN1/IMG-0874-2.jpg",
+      "https://i.postimg.cc/cLgVp1VM/IMG-0931.jpg"
     ],
     "category": "grabAndGo"
   },
   {
     "name": "Happy Birthday Balloon Stack",
-    "description": "One balloon stack and 6 helium balloons.",
+    "description": "One balloon marquee, One set of helium ballooon bonquet.",
     "price": "150",
     "image": "https://i.postimg.cc/kMLNh0DB/IMG-5680.jpg",
     "category": "grabAndGo"
