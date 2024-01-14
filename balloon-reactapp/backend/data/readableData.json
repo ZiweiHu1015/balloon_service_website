@@ -27,7 +27,7 @@
   {
     "name": "Marryme fresh flower package",
     "description": "One large balloon hear, Eight fresh flower centerpieces with roses and babysbreath, Five mini vases of fresh flowers, Marry-me neon sign(rental),Set-up included",
-    "price": 1200,
+    "price": 1100,
     "image": "https://i.postimg.cc/hvkCQGWb/1159.jpg",
     "imageList": [
       "https://i.postimg.cc/hvkCQGWb/1159.jpg",
@@ -69,6 +69,19 @@
     "category": "event"
   },
   {
+    "name": "Flower & Helium Balloons Wedding Package",
+    "description": "Four centerpieces with three kinds of roses arragement, One vase arrangement(vase included), Two custom helium bubble balloons, Six sets of latex helim balloons, Set up included",
+    "price": 1200,
+    "image": "https://i.postimg.cc/KvhGdtLC/IMG-1093.jpg",
+    "imageList": [
+      "https://i.postimg.cc/KvhGdtLC/IMG-1093.jpg",
+      "https://i.postimg.cc/FK9FRSx1/IMG-1108.jpg",
+      "https://i.postimg.cc/xdqYpxwQ/IMG-1112.jpg",
+      "https://i.postimg.cc/L5vwxq1Q/IMG-1115.jpg"
+    ],
+    "category": "event"
+  },
+  {
     "name": "Balloon Heart Package",
     "description": "One balloon heart, One 6-feet balloon garland, 8 helium balloons, One custom helium bubble balloon, Set-up included.",
     "price": "449",
@@ -88,7 +101,7 @@
   },
   {
     "name": "Rose centerpieces",
-    "description": "5 centerpieces with fresh roses and mix of greens.",
+    "description": "5 centerpieces with fresh roses and mix of greens, set up included.",
     "price": "600",
     "image": "https://i.postimg.cc/2SLVmWPw/IMG-8682-2.jpg",
     "category": "flower"
@@ -105,6 +118,18 @@
     "category": "flower"
   },
   {
+    "name": "Sugar Plum Flower Set",
+    "description": "Four centerpieces with three kinds of roses arragement, One vase arrangement(vase included), Set up included",
+    "price": 750,
+    "image": "https://i.postimg.cc/FK9FRSx1/IMG-1108.jpg",
+    "imageList": [
+      "https://i.postimg.cc/FK9FRSx1/IMG-1108.jpg",
+      "https://i.postimg.cc/KvhGdtLC/IMG-1093.jpg",
+      "https://i.postimg.cc/L5vwxq1Q/IMG-1115.jpg"
+    ],
+    "category": "flower"
+  },
+  {
     "name": "Round Centerpieces - artificial flowers",
     "description": "4 Round artificial centerpieces(rental).",
     "price": "300",
@@ -117,7 +142,7 @@
   },
   {
     "name": "sign-in board package", 
-    "description": "One designed Welcome board, One Oil painting sign-in board, two easels(rental), Set-up included",
+    "description": "One designed Welcome board, One Oil painting sign-in board, two easels(rental)",
     "price": "300",
     "image": "https://i.postimg.cc/JzwCV1gL/IMG-5932-2.jpg",
     "imageList": [
@@ -127,7 +152,7 @@
   },
   {
     "name": "Bud-vase arrangement",
-    "description": "10 bud-vase arrangements with at least two stems each, Vase included, Set-up included.",
+    "description": "10 bud-vase arrangements with at least two stems each, Vase included.",
     "price": "180",
     "image": "https://i.postimg.cc/x8ZNVRpY/IMG-0395.jpg",
     "category": "flower"
@@ -162,6 +187,16 @@
       "https://i.postimg.cc/h4YQtVqw/IMG-6137.jpg",
       "https://i.postimg.cc/CxCZCGN1/IMG-0874-2.jpg",
       "https://i.postimg.cc/cLgVp1VM/IMG-0931.jpg"
+    ],
+    "category": "grabAndGo"
+  },
+  {
+    "name": "Custom Helium balloon set", 
+    "description": "One custom bubble helium balloons, One set of helium balloons, Custom viny name sticker are avaiable with additional cost",
+    "price": "80",
+    "image": "https://i.postimg.cc/WzKs0Qpt/IMG-1085.jpg",
+    "imageList": [
+      "https://i.postimg.cc/WzKs0Qpt/IMG-1085.jpg"
     ],
     "category": "grabAndGo"
   },
