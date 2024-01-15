@@ -17,27 +17,30 @@ export default class Home extends Component {
       
       <main>
         
-      <Container>
+      <Container >
         
-        {/*Carousel pictures*/}
 
-        <div className = "carousel-frame">
+        <div>
           <Carousel >
+            
             <Carousel.Item>
-              <Image src = {Empire} fluid />
+              <Image src = {Empire}  fluid />
               <Carousel.Caption>
+             
               </Carousel.Caption> 
             </Carousel.Item>
 
             <Carousel.Item>
               <Image src = {Jiangnan} fluid />
               <Carousel.Caption>
+             
               </Carousel.Caption>
             </Carousel.Item>
             
             <Carousel.Item>
               <Image src = {EncoreRed} fluid />
               <Carousel.Caption>
+             
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
@@ -76,7 +79,6 @@ export default class Home extends Component {
             Based in North Quincy, MA, we provide onsite balloon and flower decoration service in the greater Boston region, 
             including but not limited to Boston, Cambridge, Allston, Brookline, Brighton, Somerville, Waltham, Newton, 
             and Lexington. Our on-site installation services start from $299, depending on the design and location. 
-            This price includes setup, delivery, and balloon designs.
             </p>
             <Link style={{margin: '20px'}} to="/event" className="btn btn-outline-secondary">Learn More</Link>
           </div>

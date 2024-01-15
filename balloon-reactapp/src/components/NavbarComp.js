@@ -25,13 +25,13 @@ export default class NavbarComp extends Component {
       <div>
          <Row className ="justify-content-md-center" style={{ margin: '20px'}}>
             <Col > 
-            <p style={{ color: '#845365', textAlign: 'center', fontSize: '40px', fontWeight: 'bold', fontFamily: 'Lemon, serif' }}>GG Party & Balloons</p>
+            <p style={{ color: '#845365', textAlign: 'center', fontSize: '40px', fontWeight: 'bold', fontFamily: 'Lemon, serif', margin:'20px'}}>GG Party & Balloons</p>
             </Col>
           </Row>
- 
-          <Navbar expand="lg" className="bg-body-tertiary" expanded={this.state.expanded} style={{ margin: '20px'}}>
           
+          <Navbar expand="lg" className="bg-body-tertiary" expanded={this.state.expanded} style={{margin:'20px'}} >
           <Container>
+          
             <Navbar.Brand as={Link} to="/" onClick={this.closeNavbar}>Boston_GG_Events</Navbar.Brand>
             <Navbar.Toggle onClick={this.toggleNavbar} aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -43,8 +43,10 @@ export default class NavbarComp extends Component {
                 <Nav.Link as={Link} to="/contactUs" onClick={this.closeNavbar}>Contact Us</Nav.Link>
               </Nav>
             </Navbar.Collapse>
-          </Container>
-        </Navbar>
+            </Container>
+            </Navbar>
+          
+       
       </div>
     );
   }
