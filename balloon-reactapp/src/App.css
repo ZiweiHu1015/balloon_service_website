@@ -1,5 +1,6 @@
 .App{
   font-family: 'Lora', serif;
+  
 }
 
 .App-logo {
@@ -67,6 +68,12 @@ a.instagram {
     transform: rotate(360deg);
   }
 }
+.carousel-frame {
+  width: 60vw; /* 50% of the viewport width */
+  height:45vw; /* Keeps aspect ratio as a square */
+  margin: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
 
 .cards {
   position: relative;
@@ -76,7 +83,6 @@ a.instagram {
   background-color: white; /* Ensures both body and footer have white background */
   border: none; /* Removes any borders */
 }
-
 
 .description-line {
   display: flex;
