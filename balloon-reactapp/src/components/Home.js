@@ -15,33 +15,20 @@ export default class Home extends Component {
   render() {
     return (
       
-      <main>
-        
-      <Container >
-        
-
+      <main> 
+      <Container > 
         <div>
           <Carousel >
-            
             <Carousel.Item>
               <Image src = {Empire}  fluid />
-              <Carousel.Caption>
-             
-              </Carousel.Caption> 
             </Carousel.Item>
 
             <Carousel.Item>
               <Image src = {Jiangnan} fluid />
-              <Carousel.Caption>
-             
-              </Carousel.Caption>
             </Carousel.Item>
             
             <Carousel.Item>
               <Image src = {EncoreRed} fluid />
-              <Carousel.Caption>
-             
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>
@@ -52,8 +39,14 @@ export default class Home extends Component {
     <Row className="justify-content-md-center text-center">
         <Col> 
             <h1 style={{ margin: '20px', fontWeight: 'bold', color: '#845365'}}>
-                Let's Make Your Party Memorable!
+                Let's Make Your Event Memorable!
             </h1>
+            <p style={{ margin: '20px', fontSize: '1.5rem' }}>
+            We are Boston GG Events, an event planning team based in Boston.
+             We provide floral and balloon decoration services in the greater Boston region.
+              We are dedicated to designing personalized experiences that perfectly capture the 
+              essence of each event's unique style. Let's work together and bring your vision to life!
+            </p>
             <div style={{ margin: '20px', textAlign: 'center' }}>
                 <Link to="/contactUs" className="btn btn-outline-secondary">
                     Contact Us Today
@@ -76,7 +69,7 @@ export default class Home extends Component {
           <div>
             <h3 style={{margin: '20px',fontWeight: 'bold'}}>Onsite Installation</h3>
             <p style={{ color: '#757575', margin: '20px'}}>
-            Based in North Quincy, MA, we provide onsite balloon and flower decoration service in the greater Boston region, 
+            We provide onsite balloon and flower decoration service in the greater Boston region, 
             including but not limited to Boston, Cambridge, Allston, Brookline, Brighton, Somerville, Waltham, Newton, 
             and Lexington. Our on-site installation services start from $299, depending on the design and location. 
             </p>
