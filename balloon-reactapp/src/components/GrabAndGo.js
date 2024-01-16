@@ -11,28 +11,28 @@ const Eventcard = props => {
   const descriptionParts = props.grabandgo.description.split(',').map(part => part.trim());
 
   return (
-    <Col className="d-flex align-items-stretch">
-      <Card className="cards" style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={props.grabandgo.image}/>
-        <Card.Body>
-          <Card.Title>{props.grabandgo.name}</Card.Title>
-          <Card.Text>${props.grabandgo.price}</Card.Text>
-        </Card.Body>
+    <Col xs={12} md={6} lg={3} className="d-flex align-items-stretch mb-4">
+    <Card className="cards mx-auto" style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={props.grabandgo.image}/>
+      <Card.Body>
+        <Card.Title>{props.grabandgo.name}</Card.Title>
+        <Card.Text>${props.grabandgo.price}</Card.Text>
         <Card.Text>
-          {descriptionParts.map((part, index) => (
-          <div key={index} className="description-line">
-            <span className="description-text">{part}</span>
-          </div>
-        ))}
-          </Card.Text>
-        
-        <Card.Footer>
-          <Link to={`/products/${props.grabandgo._id}`} className="btn btn-outline-secondary">
-            Learn More
-          </Link>
-        </Card.Footer>
-      </Card>
-    </Col>
+        {descriptionParts.map((part, index) => (
+        <div key={index} className="description-line">
+          <span className="description-text">{part}</span>
+        </div>
+      ))}
+        </Card.Text>
+      </Card.Body>
+      
+      <Card.Footer>
+        <Link to={`/products/${props.grabandgo._id}`} className="btn btn-outline-secondary">
+          Learn More
+        </Link>
+      </Card.Footer>
+    </Card>
+  </Col>
   );
 }
 
@@ -65,7 +65,7 @@ export default class GrabAndGo extends Component {
     <main>
     <Container>
         <h3 className="text-center">Grab And Go</h3>
-            <Row>
+            <Row className="justify-content-center">
             {this.grabAndGoList()}
             </Row> 
     </Container>

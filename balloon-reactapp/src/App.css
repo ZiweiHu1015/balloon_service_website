@@ -82,8 +82,9 @@ a.instagram {
 
 .cards {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
 }
+
 .cards .card-body, .cards .card-footer {
   background-color: white; /* Ensures both body and footer have white background */
   border: none; /* Removes any borders */

@@ -10,7 +10,7 @@ const Eventcard = props => {
   const descriptionParts = props.event.description.split(',').map(part => part.trim());
 
   return (
-    <Col xs={12} md={6} lg={4} className="d-flex align-items-stretch mb-4">
+    <Col xs={12} md={6} lg={3} className="d-flex align-items-stretch mb-4">
       <Card className="cards mx-auto" style={{ width: '18rem' }}>
         <Card.Img variant="top" src={props.event.image}/>
         <Card.Body>
