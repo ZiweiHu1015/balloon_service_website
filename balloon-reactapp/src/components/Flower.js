@@ -11,8 +11,8 @@ const Eventcard = props => {
   const descriptionParts = props.flower.description.split(',').map(part => part.trim());
 
   return (
-    <Col className="d-flex align-items-stretch">
-      <Card className="cards" style={{ width: '18rem' }}>
+    <Col xs={12} md={6} lg={4} className="d-flex align-items-stretch mb-4">
+      <Card className="cards mx-auto" style={{ width: '18rem' }}>
         <Card.Img variant="top" src={props.flower.image}/>
         <Card.Body>
           <Card.Title>{props.flower.name}</Card.Title>
@@ -66,7 +66,7 @@ export default class Flower extends Component {
     <main>
     <Container>
         <h3 className="text-center">Flowers</h3> 
-            <Row>
+            <Row className="justify-content-center">
             {this.flowerList()}
             </Row>
     </Container>

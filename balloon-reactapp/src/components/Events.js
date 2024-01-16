@@ -10,8 +10,8 @@ const Eventcard = props => {
   const descriptionParts = props.event.description.split(',').map(part => part.trim());
 
   return (
-    <Col className="d-flex align-items-stretch">
-      <Card className="cards" style={{ width: '18rem' }}>
+    <Col xs={12} md={6} lg={4} className="d-flex align-items-stretch mb-4">
+      <Card className="cards mx-auto" style={{ width: '18rem' }}>
         <Card.Img variant="top" src={props.event.image}/>
         <Card.Body>
           <Card.Title>{props.event.name}</Card.Title>
@@ -66,7 +66,7 @@ export default class Event extends Component {
     <main>
     <Container>
         <h3 className="text-center">Event Packages</h3>
-            <Row>
+            <Row className="justify-content-center">
             {this.eventList()}
             </Row>
     </Container>
