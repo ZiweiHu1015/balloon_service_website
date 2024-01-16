@@ -3,7 +3,8 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const allowedOrigins = ['http://localhost:3000', 
                         'https://ziwei.d2f859lvvrqkqv.amplifyapp.com',
-                        'https://boston-gg-events.us-east-1.elasticbeanstalk.com'];
+                        'https://boston-gg-events.us-east-1.elasticbeanstalk.com',
+                        'https://api.ggpartyandballoon.com'];
 
 
 require('dotenv').config();
