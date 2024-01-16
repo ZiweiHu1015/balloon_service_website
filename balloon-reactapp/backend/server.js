@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const allowedOrigins = ['http://localhost:3000', 
                         'https://ziwei.d2f859lvvrqkqv.amplifyapp.com',
                         'https://boston-gg-events.us-east-1.elasticbeanstalk.com',
-                        'https://www.ggpartyandballoon.com'];
+                        'https://ggpartyandballoon.com'];
 
 
 require('dotenv').config();
