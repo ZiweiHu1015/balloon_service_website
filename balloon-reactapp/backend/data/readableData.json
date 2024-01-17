@@ -1,6 +1,6 @@
 [
   {
-    "name": "balloon hoop package",
+    "name": "Balloon Hoop Package",
     "description": "One balloon hoop, One custom helium bubble balloon, One set of helium ballooon bonquet, Set up included ",
     "price": 599,
     "image": "https://i.postimg.cc/dt5W0Q63/IMG-1762.jpg",
@@ -16,7 +16,7 @@
   {
     "name": "Helium balloon with Neon Sign ",
     "description": "Four Sets of heart helium balloons, Three set of latex helium ballooons, One custom helium bubble balloon, One neon sign(rental), Set-up included",
-    "price": 299,
+    "price": 350,
     "image": "https://i.postimg.cc/GpQwQ7WZ/IMG-0893.jpg",
     "imageList": [
       "https://i.postimg.cc/GpQwQ7WZ/IMG-0893.jpg",
@@ -26,8 +26,8 @@
   },
   {
     "name": "Marryme fresh flower package",
-    "description": "One large balloon hear, Eight fresh flower centerpieces with roses and babysbreath, Five mini vases of fresh flowers, Marry-me neon sign(rental),Set-up included",
-    "price": 1100,
+    "description": "One large balloon heart, Eight fresh flower centerpieces with roses and babysbreath, Five mini vases of fresh flowers, Marry-me neon sign(rental),Set-up included",
+    "price": 1200,
     "image": "https://i.postimg.cc/hvkCQGWb/1159.jpg",
     "imageList": [
       "https://i.postimg.cc/hvkCQGWb/1159.jpg",
@@ -49,9 +49,9 @@
     "category": "event"
   },
   {
-    "name": "Balloon heart package", 
+    "name": "Balloon Heart Package", 
     "description": "One balloon heart, One custom helium bubble balloon, one set of helium ballon bouquet, Set-up included.",
-    "price": "320",
+    "price": "350",
     "image": "https://i.postimg.cc/QMjTmKpY/IMG-9168.jpg",
     "imageList": [
       "https://i.postimg.cc/QMjTmKpY/IMG-9168.jpg"
@@ -59,9 +59,9 @@
     "category": "event"
   },
   {
-    "name": "starter package",
+    "name": "Starter Package",
     "description": "One 5-feet balloon garland, One customized helium bubble balloon, one set of helium ballon bouquet, One basic number stack, Set-up included. ",
-    "price": 299,
+    "price": 350,
     "image": "https://i.postimg.cc/1RTFCzGh/IMG-5480.jpg",
     "imageList": [
       "https://i.postimg.cc/1RTFCzGh/IMG-5480.jpg"
@@ -100,16 +100,16 @@
     "category": "event"
   },
   {
-    "name": "Rose centerpieces",
-    "description": "5 centerpieces with fresh roses and mix of greens, set up included.",
-    "price": "600",
+    "name": "Snow White Flower Set",
+    "description": "Five centerpieces with fresh Ecuador roses and mix of greens.",
+    "price": "750",
     "image": "https://i.postimg.cc/2SLVmWPw/IMG-8682-2.jpg",
     "category": "flower"
   },
   {
-    "name": "Rose & hydrangea centerpieces",
+    "name": "Rose & Hydrangea Centerpieces",
     "description": "2 centerpieces with fresh roses hydrangea and babysbreath.",
-    "price": "220",
+    "price": "240",
     "image": "https://i.postimg.cc/D0r51ZYF/IMG-0980.jpg",
     "imageList": [
       "https://i.postimg.cc/D0r51ZYF/IMG-0980.jpg",
@@ -119,7 +119,7 @@
   },
   {
     "name": "Sugar Plum Flower Set",
-    "description": "Four centerpieces with three kinds of roses arragement, One vase arrangement(vase included), Set up included",
+    "description": "Four centerpieces with Ecuador roses; spray roses; hydrangea and mix of greens, One vase arrangement(vase included)",
     "price": 750,
     "image": "https://i.postimg.cc/FK9FRSx1/IMG-1108.jpg",
     "imageList": [
@@ -130,7 +130,7 @@
     "category": "flower"
   },
   {
-    "name": "Round Centerpieces - artificial flowers",
+    "name": "Round Centerpieces - Artificial Flowers",
     "description": "4 Round artificial centerpieces(rental).",
     "price": "300",
     "image": "https://i.postimg.cc/65yQcpsL/IMG-5931.jpg",
@@ -141,7 +141,7 @@
     "category": "flower"
   },
   {
-    "name": "sign-in board package", 
+    "name": "Sign-in Board Set", 
     "description": "One designed Welcome board, One Oil painting sign-in board, two easels(rental)",
     "price": "300",
     "image": "https://i.postimg.cc/JzwCV1gL/IMG-5932-2.jpg",
@@ -151,16 +151,16 @@
     "category": "event"
   },
   {
-    "name": "Bud-vase arrangement",
-    "description": "10 bud-vase arrangements with at least two stems each, Vase included.",
-    "price": "180",
+    "name": "Bud-Vase Arrangement",
+    "description": "15 bud-vase arrangements with at least two stems each, Vase included.",
+    "price": "300",
     "image": "https://i.postimg.cc/x8ZNVRpY/IMG-0395.jpg",
     "category": "flower"
   },
   {
-    "name": "Mini Centerpieces - artificial flowers",
+    "name": "Mini Centerpieces - Artificial Flowers",
     "description": "8 square centerpieces(rental)",
-    "price": "300",
+    "price": "400",
     "image": "https://i.postimg.cc/K8j5t3b6/IMG-5323.jpg",
     "category": "flower"
   },
@@ -172,16 +172,23 @@
     "category": "grabAndGo"
   },
   {
-    "name": "5 feet balloon garland",
-    "description": "One 5 feet balloon garland.",
+    "name": "5 feet Balloon Garland",
+    "description": "One 5 feet balloon garland, add 5$ for each foil balloon",
     "price": "80",
     "image": "https://i.postimg.cc/XXMv915T/IMG-0936-2.jpg",
     "category": "grabAndGo"
   },
   {
+    "name": "Big Balloon Heart",
+    "description": "One big balloon heart",
+    "price": "150",
+    "image": "https://i.postimg.cc/tCxBDwVk/IMG-6032.jpg",
+    "category": "grabAndGo"
+  },
+  {
     "name": "Small Balloon Heart", 
     "description": "One small balloon heart",
-    "price": "60",
+    "price": "80",
     "image": "https://i.postimg.cc/h4YQtVqw/IMG-6137.jpg",
     "imageList": [
       "https://i.postimg.cc/h4YQtVqw/IMG-6137.jpg",
@@ -191,7 +198,7 @@
     "category": "grabAndGo"
   },
   {
-    "name": "Custom Helium balloon set", 
+    "name": "Custom Helium Balloon Set", 
     "description": "One custom bubble helium balloons, One set of helium balloons, Custom viny name sticker are avaiable with additional cost",
     "price": "80",
     "image": "https://i.postimg.cc/WzKs0Qpt/IMG-1085.jpg",
