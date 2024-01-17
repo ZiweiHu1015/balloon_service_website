@@ -16,7 +16,7 @@ const Eventcard = props => {
         <Card.Img variant="top" src={props.flower.image}/>
         <Card.Body>
           <Card.Title>{props.flower.name}</Card.Title>
-          <Card.Text>${props.flower.price}</Card.Text>
+          <Card.Text>Starts at ${props.flower.price}</Card.Text>
           <Card.Text>
           {descriptionParts.map((part, index) => (
           <div key={index} className="description-line">

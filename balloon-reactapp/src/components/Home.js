@@ -42,9 +42,9 @@ export default class Home extends Component {
                 Let's Make Your Event Memorable!
             </h1>
             <p style={{ margin: '20px', fontSize: '1.5rem' }}>
-            We are Boston GG Events, an event planning team based in Boston.
+            We are GG Party & Balloons, an event planning team based in Boston, MA.
              We provide floral and balloon decoration services in the greater Boston region.
-              We are dedicated to designing personalized experiences that perfectly capture the 
+              We are dedicated to design personalized experiences that perfectly capture the 
               essence of each event's unique style. Let's work together and bring your vision to life!
             </p>
             <div style={{ margin: '20px', textAlign: 'center' }}>

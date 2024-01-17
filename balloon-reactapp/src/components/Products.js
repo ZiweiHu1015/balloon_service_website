@@ -54,7 +54,7 @@ const Products = () => {
   return (
     <Container>
       <Row className="justify-content-md-center">
-        <Col>
+        <Col style={{ marginBottom: '20px' }}>
           {product.imageList && product.imageList.length > 0 && (
             <Carousel>
               {carouselItems}
@@ -79,6 +79,27 @@ const Products = () => {
               </Card.Text>
             </Card.Body>
           </Card>
+        </Col>
+      </Row>
+      
+      <Row style={{ marginTop: '10px' }}>
+        <Col md={12}>
+          <Card>
+          <Card.Body>
+          <Card.Text>
+              <span className="includes-text">Important:</span>
+                  <span className="description-line">Minimum on-site installation ordering is $299.</span>
+                  <span className="description-line">Please consult owner for availability</span>
+                  <span className="description-line">For items marked as 'Rental,' a Rental Damage 
+                  Deposit is required. This deposit is separate from any event arrangement fees. 
+                  Customers must return the rental items to our North Quincy location in their 
+                  original condition. Failure to do so, or returning items in a damaged state, 
+                  will result in the forfeiture of the Rental Damage Deposit. Please note, if a
+                   rental item is damaged, the Rental Damage Deposit will not be refunded.</span></Card.Text>
+             </Card.Body>
+          </Card>
+
+
         </Col>
       </Row>
     </Container>
