@@ -87,7 +87,7 @@ const Products = () => {
           <Card>
           <Card.Body>
           <Card.Text>
-              <span className="includes-text">Important:</span>
+              <span className="includes-text">Please Note:</span>
                   <span className="description-line">Minimum on-site installation ordering is $299.</span>
                   <span className="description-line">Please consult owner for availability</span>
                   <span className="description-line">For items marked as 'Rental,' a Rental Damage 
@@ -96,6 +96,13 @@ const Products = () => {
                   original condition. Failure to do so, or returning items in a damaged state, 
                   will result in the forfeiture of the Rental Damage Deposit. Please note, if a
                    rental item is damaged, the Rental Damage Deposit will not be refunded.</span></Card.Text>
+                  <span className="description-line"> If you require our staff to remain on-site to wait 
+                  and assist with balloon teardown at the end of event, an additional fee will apply. This service is typically charged 
+                  at $30 per hour per staff .</span>
+                  <span className="description-line">Price above only avaiable for the Greater Boston area, include but not limit to 
+                  Boston,Brookline, Cambridge, Somerville, Watertown, Newton, Malden, Quincy, Milton, Braintree, Everett. Additional travel
+                  fees may apply for services rendered beyond these specified areas.
+                  </span>
              </Card.Body>
           </Card>
 
