@@ -31,8 +31,6 @@ export default class NavbarComp extends Component {
           
           <Navbar expand="lg" className="bg-body-tertiary" expanded={this.state.expanded} style={{margin:'20px'}} >
           <Container>
-          
-            <Navbar.Brand as={Link} to="/" onClick={this.closeNavbar}>Boston_GG_Events</Navbar.Brand>
             <Navbar.Toggle onClick={this.toggleNavbar} aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
