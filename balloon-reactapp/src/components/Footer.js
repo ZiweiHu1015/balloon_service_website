@@ -15,7 +15,7 @@ export default class Footer extends Component {
     <Row className="social-container">
         <Col sm = {4}>
         <h3 >Let's stay connected</h3>
-            <a href="https://i.postimg.cc/vTpfppMW/IMG-0960.jpg"
+            <a href="https://i.postimg.cc/mkrXYZLG/IMG-0960.jpg"
                 className="weixin social">
                 <FontAwesomeIcon icon={faWeixin} size="2x" />
             </a>
