@@ -19,13 +19,8 @@ export default class Footer extends Component {
                 className="weixin social">
                 <FontAwesomeIcon icon={faWeixin} size="2x" />
             </a>
-
-            <a href="https://www.facebook.com"
-            className="facebook social">
-            <FontAwesomeIcon icon={faFacebook} size="2x" />
-            </a>
         
-            <a href="https://www.instagram.com"
+            <a href="https://www.instagram.com/ggpartyandballoon?igsh=dDNobGI3bXEzdW5v&utm_source=qr"
             className="instagram social">
             <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
@@ -39,7 +34,7 @@ export default class Footer extends Component {
         
     </Row>  
         <p className = "text-center">
-            Copyright © 2024 by Ziwei Hu. All rights reserved.
+            Copyright © 2024 by GGPartyandBalloon. All rights reserved.
         </p>
       
     </footer>
