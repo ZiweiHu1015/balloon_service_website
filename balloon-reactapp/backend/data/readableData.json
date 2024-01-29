@@ -71,7 +71,7 @@
   {
     "name": "Flower & Helium Balloons Wedding Package",
     "description": "Four centerpieces with three kinds of roses arragement, One vase arrangement(vase included), Two custom helium bubble balloons, Six sets of latex helim balloons, Set up included",
-    "price": 960,
+    "price": 980,
     "image": "https://i.postimg.cc/KvhGdtLC/IMG-1093.jpg",
     "imageList": [
       "https://i.postimg.cc/KvhGdtLC/IMG-1093.jpg",
@@ -94,7 +94,7 @@
   },
   {
     "name": "Standard Wedding Package",
-    "description": "One 7-feet backdrop, One 6-feet backdrop, One 8-feet balloon garland, One 4-feet balloon garland, 6 artificial flowers centerpiece, One custom bubble balloon, Set up and take off included.\n",
+    "description": "One 7-feet backdrop, One 6-feet backdrop, One 8-feet balloon garland, One 4-feet balloon garland, 6 artificial flowers centerpiece, One custom bubble balloon, Set up included.\n",
     "price": "1280",
     "image": "https://i.postimg.cc/rFR1PBZK/IMG-5832.jpg",
     "category": "event"
@@ -119,7 +119,7 @@
   },
   {
     "name": "Sugar Plum Flower Set",
-    "description": "Four centerpieces with Ecuador roses; spray roses; hydrangea and mix of greens, One vase arrangement(vase included)",
+    "description": "Four centerpieces with Ecuador roses; spray roses; hydrangea and mix of greens, One vase arrangement for reception table(vase included)",
     "price": 750,
     "image": "https://i.postimg.cc/FK9FRSx1/IMG-1108.jpg",
     "imageList": [
@@ -166,8 +166,8 @@
   },
   {
     "name": "Balloon Stack Package",
-    "description": "One balloon marquee, One set of helium ballooon bonquet.",
-    "price": "150",
+    "description": "One balloon marquee, Six helium balloons.",
+    "price": "199",
     "image": "https://i.postimg.cc/k5ch76QD/IMG-5699.jpg",
     "category": "grabAndGo"
   },
@@ -209,8 +209,8 @@
   },
   {
     "name": "Happy Birthday Balloon Stack",
-    "description": "One balloon marquee, One set of helium ballooon bonquet.",
-    "price": "150",
+    "description": "One balloon marquee, Six helium balloons.",
+    "price": "199",
     "image": "https://i.postimg.cc/kMLNh0DB/IMG-5680.jpg",
     "category": "grabAndGo"
   }

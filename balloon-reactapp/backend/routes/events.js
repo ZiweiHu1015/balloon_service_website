@@ -1,11 +1,20 @@
 const router = require('express').Router();
 let Event = require('../models/event.model');
 
-router.route('/').get((req,res)=> {
-    Event.find({category:"event"}) //get a list of all events
-        .then(events => res.json(events))
-        .catch(err => res.status(400).json('Error: ' + err ));
+router.route('/').get((req, res) => {
+    let categoryQuery = req.query.category || "event"; // Default category if not provided
+
+    Event.find()
+        .then(events => {
+            // Filter events that include the specified category
+            const filteredEvents = events.filter(event => 
+                event.category && event.category.includes(categoryQuery)
+            );
+            res.json(filteredEvents);
+        })
+        .catch(err => res.status(400).json('Error: ' + err));
 });
+
 
 router.route('/add').post((req, res) =>{
     const name = req.body.name;

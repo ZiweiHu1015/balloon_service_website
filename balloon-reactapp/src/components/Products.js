@@ -95,7 +95,7 @@ const Products = () => {
                   Customers must return the rental items to our North Quincy location in their 
                   original condition. Failure to do so, or returning items in a damaged state, 
                   will result in the forfeiture of the Rental Damage Deposit. Please note, if a
-                   rental item is damaged, the Rental Damage Deposit will not be refunded.</span></Card.Text>
+                  rental item is damaged, the Rental Damage Deposit will not be refunded.</span></Card.Text>
                   <span className="description-line"> If you require our staff to remain on-site to wait 
                   and assist with balloon teardown at the end of event, an additional fee will apply. This service is typically charged 
                   at $30 per hour per staff .</span>

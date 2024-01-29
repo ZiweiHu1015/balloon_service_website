@@ -88,7 +88,6 @@ export default class Home extends Component {
               <p style={{ color: '#757575', margin: '20px'}}>
                 Discover the charm of our floral services, offering both exquisite real and artificial flower arrangements.
                 We offer both fresh flower design and artificial flower rental services. 
-                Flowers are available exclusively as an add-on to our onsite packages.
               </p>
               <Link style={{margin: '20px'}} to="/flower" className="btn btn-outline-secondary">Learn More</Link>
             </div>

@@ -7,7 +7,8 @@ const eventSchema = new Schema({
     description: { type: String, required: true },
     price: { type: Number, required: true },
     image:{type: String, required: true},
-    imageList: { type: [String], required: false, default: [] }
+    imageList: { type: [String], required: false, default: [] },
+    category:{ type: [String], required: false, default:[]}
     
 }, {
     timestamps: true,

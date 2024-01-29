@@ -2,7 +2,7 @@ const router = require('express').Router();
 let Event = require('../models/event.model');
 
 router.route('/').get((req,res)=> {
-    Event.find({category:"grabAndGo"}) //get a list of all flowers
+    Event.find({category:"grabAndGo"}) 
         .then(GrabAndGoes => res.json(GrabAndGoes))
         .catch(err => res.status(400).json('Error: ' + err ));
 });

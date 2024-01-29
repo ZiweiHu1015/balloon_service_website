@@ -46,19 +46,12 @@ a.weixin{
   color:#09B83E;
 }
 
-a.facebook {
-  color: #4968ad;
-}
-
 a.instagram {
-  color: black;
+  color: #CE3483;
 }
-
-
 .form-group{
   margin-bottom: 10px;
 }
-
 
 @keyframes App-logo-spin {
   from {
