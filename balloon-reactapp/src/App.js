@@ -14,26 +14,27 @@ import Flower from './components/Flower';
 import GrabAndGo from './components/GrabAndGo';
 import Products from './components/Products';
 import Login from './components/Login';
+import Analytics from './utils/Analytics';
+
 
 function App() {
   return (
     <Router>
-    <div className="App">
-     <NavbarComp/>
-        <Routes>
-            <Route path = "/" element = {<Home/>} />
-            <Route path = "/event" element = {<Event/>} />
-            <Route path = "/flower" element = {<Flower/>} />
-            <Route path = "/grabAndGo" element = {<GrabAndGo/>}/>
-            <Route path = "/contactUs" element = {<ContactUs/>} />
-            <Route path = "/products/:id" element = {<Products/>} />
-            <Route path = "/Login" element = {<Login/>} />
-
-        </Routes>
+    <Analytics trackingId="G-K3K9Z240CV" /> {/* Use the Analytics component here */}
+    <div className="App flex flex-col min-h-screen">
+      <NavbarComp/>
+      <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/event" element={<Event/>} />
+          <Route path="/flower" element={<Flower/>} />
+          <Route path="/grabAndGo" element={<GrabAndGo/>}/>
+          <Route path="/contactUs" element={<ContactUs/>} />
+          <Route path="/products/:id" element={<Products/>} />
+          <Route path="/Login" element={<Login/>} />
+      </Routes>
     </div>
-     <Footer/>
- 
-    </Router>
+    <Footer/>
+  </Router>
   );
 }
 
